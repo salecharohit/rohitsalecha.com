@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Principal Security Consultant
+role: A Dev who loves Security
 
 # Organizations/Affiliations
 organizations:
@@ -24,6 +24,7 @@ interests:
 - Web,Mobile and API Security
 - Red Team Assessments
 - DevOps and DevSecOps
+- Cloud Infrastruture
 
 education:
   courses:
@@ -64,9 +65,11 @@ social:
 # - Visitors
 ---
 
-Rohit Salecha is a technology enthusiast with over 9+ years of experience in IT and Cyber Security industry. He loves to develop web applications/API , learn new programming languages and at times even reverse engineer binaries.
-In his free time he is either reading [books](https://www.goodreads.com/review/list/76845050-rohit-salecha?shelf=read) or watches [movies](https://www.imdb.com/list/ls040083918/). He is fitness freak who loves to jog,swim and cycle on any terrain.
+Rohit Salecha is a technology enthusiast with over 9+ years of experience in IT and Cyber Security industry. He loves to develop web applications/API , learn new programming languages,reverse engineer binaries and tinker around with his computers in cloud.
 
-यतो धर्मस्ततो जयः
+In his free time he is either reading [books](https://www.goodreads.com/review/list/76845050-rohit-salecha?shelf=read) or watching [movies](https://www.imdb.com/list/ls040083918/).
+He is a fitness freak who loves to jog,swim and cycle on different terrains.
 
-Where there is righteousness there is victory
+---
+
+> **यतो धर्मस्ततो जयः** Where there is righteousness there is victory
