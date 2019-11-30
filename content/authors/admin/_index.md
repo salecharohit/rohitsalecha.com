@@ -1,41 +1,35 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Rohit Salecha
 
 # Username (this should match the folder name)
 authors:
-- admin
+- rohit
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Principal Security Consultant
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: NotSoSecure
+  url: "https://www.notsosecure.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: A technology enthusiast who loves the company of 1's and 0's.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Web,Mobile and API Security
+- Red Team Assessments
+- DevOps and DevSecOps
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: B.E. Electronics Engineering
+    institution: Vidyalankar Institute of Technology
     year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,16 +38,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:i@rohitsalecha.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/salecharohit
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/rohitsalecha/
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/salecharohit
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -61,15 +55,18 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+#email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+# user_groups:
+# - Researchers
+# - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Rohit Salecha is a technology enthusiast with over 9+ years of experience in IT and Cyber Security industry. He loves to develop web applications/API , learn new programming languages and at times even reverse engineer binaries.
+In his free time he is either reading [books](https://www.goodreads.com/review/list/76845050-rohit-salecha?shelf=read) or watches [movies](https://www.imdb.com/list/ls040083918/). He is fitness freak who loves to jog,swim and cycle on any terrain.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+यतो धर्मस्ततो जयः
+
+Where there is righteousness there is victory
