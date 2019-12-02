@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: A Dev who loves Security
+role: An Infosec professional who loves web technologies
 
 # Organizations/Affiliations
 organizations:
@@ -65,10 +65,12 @@ social:
 # - Visitors
 ---
 
-Rohit Salecha is a technology enthusiast with over 9+ years of experience in IT and Cyber Security industry. He loves to develop web applications/API , learn new programming languages,reverse engineer binaries and tinker around with his computers in cloud.
+Rohit Salecha is a technology enthusiast with over 9+ years of experience in IT and Cyber Security industry. He loves to develop web applications/API , learn new programming languages,reverse engineer binaries and tinker around with his computers in cloud.More inclined towards defense than offense in the Information Security domain.
 
 In his free time he is either reading [books](https://www.goodreads.com/review/list/76845050-rohit-salecha?shelf=read) or watching [movies](https://www.imdb.com/list/ls040083918/).
 He is a fitness freak who loves to jog,swim and cycle on different terrains.
+
+A devout [Jain](https://en.wikipedia.org/wiki/Jainism)
 
 ---
 
