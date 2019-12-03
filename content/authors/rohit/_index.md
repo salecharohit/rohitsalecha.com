@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: An Infosec professional who loves web technologies
+role: Cyber Security Consultant
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: "https://www.notsosecure.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: A technology enthusiast who loves the company of 1's and 0's.
+bio: An Infosec professional who loves web technologies.
 
 interests:
 - Web,Mobile and API Security
