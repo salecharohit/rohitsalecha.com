@@ -5,7 +5,7 @@ title: "Turning Your Windows Into A Linux Powerhouse"
 subtitle: "Running linux seamleslly on Windows without virtualization"
 summary: "If you are a developer working on a Windows machine but you love linux and looking at ways to operate through CLI then read on."
 authors: [rohit]
-tags: [Windows,Linux]
+tags: [windows,linux]
 categories: [Technology]
 date: 2019-12-03T22:38:24+05:30
 lastmod: 2019-12-03T22:38:24+05:30

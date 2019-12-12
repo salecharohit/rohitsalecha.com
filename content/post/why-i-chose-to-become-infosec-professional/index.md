@@ -5,7 +5,7 @@ title: "Why I Chose to Become Infosec Professional"
 subtitle: ""
 summary: "Why i switched from being a developer to becoming an information security professional"
 authors: [rohit]
-tags: [Career,Infosec]
+tags: [career,infosec]
 categories: [Security]
 date: 2019-12-02T22:46:29+05:30
 lastmod: 2019-12-02T22:46:29+05:30

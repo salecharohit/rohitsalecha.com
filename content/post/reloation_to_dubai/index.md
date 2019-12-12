@@ -5,7 +5,7 @@ title: "Reloation to Dubai"
 subtitle: "If you are relocating to Dubai read on ..."
 summary: "in this blog i summarise my entire experience of relocating to Dubai from expenses to medical,from visa to transportation.If you have just relocated to Dubai read on ..."
 authors: [rohit]
-tags: [Relocation,Dubai]
+tags: [dubai]
 categories: [Opinion]
 date: 2015-07-03T15:39:33+05:30
 lastmod: 2019-12-03T15:39:33+05:30
