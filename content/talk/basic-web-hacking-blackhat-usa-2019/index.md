@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Basic Web Hacking - Blackhat USA 2019"
+title: "Basic Web Hacking"
 event: Blackhat USA 2019
 event_url: https://www.blackhat.com/us-19/training/schedule/index.html#basic-web-hacking-14048
 location: Las Vegas
@@ -18,7 +18,7 @@ abstract: This course familiarizes the attendees with a wealth of tools and tech
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: 2019-08-03T17:25:38+05:30
 date_end: 2019-08-04T17:25:38+05:30
-all_day: false
+all_day: true
 
 # Schedule page publish date (NOT talk date).
 publishDate: 2019-12-13T17:25:38+05:30

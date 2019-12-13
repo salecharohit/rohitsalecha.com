@@ -1,30 +1,30 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Basic Web Hacking"
-event: Blackhat USA 2017
-event_url: https://www.blackhat.com/us-17/training/basic-web-hacking.html
-location: Las Vegas
+title: "Deserialization Vulnerabilities"
+event: Nullcon
+event_url: https://nullcon.net/website/goa-2018/speakers/rohit-salecha.php
+location: Goa
 address:
   street:
-  city:
+  city: 
   region:
   postcode:
   country:
-summary: Training on Basics of Web Hacking
-abstract: This course familiarizes the attendees with a wealth of tools and techniques needed to breach the security of web applications. The course starts from the very basic and gradually build up to the level where attendees can not only use the tools and techniques to hack various components involved in web application hacking, but also walk away with a solid understanding of the concepts on which these tools work. The course also covers the industry standards such as OWASP Top 10, PCI DSS and contain numerous real life examples to help the attendees understand the true impact of these vulnerabilities. This course is constantly updated on a regular basis to ensure that the latest exploits and vulnerabilities are available within the hacklab and taught in this course.
+summary: Workshop on Deserialization Vulnerabilities
+abstract: Demystifying Serialisation bugs through demos on multiple platforms with relevant use cases which will provide a greater understanding of the vulnerability and ways to find and mitigate it.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2017-08-22T17:25:38+05:30
-date_end: 2017-08-25T17:25:38+05:30
+date: 2018-03-02T17:42:37+05:30
+date_end: #
 all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2019-12-13T17:25:38+05:30
+publishDate: 2019-12-13T17:42:37+05:30
 
 authors: [rohit]
-tags: [blackhat,web-hacking]
+tags: [deserialization]
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -46,7 +46,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides:
+url_slides: "https://nullcon.net/website/archives/pdf/goa-2018/rohit-slides.pdf"
 
 url_code:
 url_pdf:

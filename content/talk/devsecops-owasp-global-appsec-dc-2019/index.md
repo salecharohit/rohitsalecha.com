@@ -1,30 +1,31 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Basic Web Hacking"
-event: Blackhat USA 2017
-event_url: https://www.blackhat.com/us-17/training/basic-web-hacking.html
-location: Las Vegas
+title: "DevSecOps - Automating Security in DevOps"
+event: OWASP Global AppSec DC
+event_url: https://globalappsecdc2019.sched.com/event/SKIC/devsecops-automating-security-in-devops
+location: Washington DC
 address:
   street:
   city:
   region:
   postcode:
   country:
-summary: Training on Basics of Web Hacking
-abstract: This course familiarizes the attendees with a wealth of tools and techniques needed to breach the security of web applications. The course starts from the very basic and gradually build up to the level where attendees can not only use the tools and techniques to hack various components involved in web application hacking, but also walk away with a solid understanding of the concepts on which these tools work. The course also covers the industry standards such as OWASP Top 10, PCI DSS and contain numerous real life examples to help the attendees understand the true impact of these vulnerabilities. This course is constantly updated on a regular basis to ensure that the latest exploits and vulnerabilities are available within the hacklab and taught in this course.
+summary: Training on DevSecOps
+abstract: "Modern enterprises are implementing the technical and cultural changes required to embrace  DevOps methodology. DevSecOps extends DevOps by introducing security early into the SDLC process, thereby minimizing the security vulnerabilities and enhancing the software security posture. In this workshop, we will show how this can be achieved through a series of live demonstrations and practical examples using open source tools.
+As part of this workshop attendees will receive a state-of-the-art DevSecOps tool-chest comprising of various open-source tools and scripts to help the DevOps engineers in automating security within the CI/CD pipeline. While the workshop uses Java/J2EE framework, the workshop is language agnostic and similar tools can be used against other application development frameworks.The workshop will also present various case studies on how critical bugs and security breaches affecting popular software and applications could have been prevented using a simple DevSecOps approach."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2017-08-22T17:25:38+05:30
-date_end: 2017-08-25T17:25:38+05:30
+date: 2019-09-11T17:46:36+05:30
+date_end: #
 all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2019-12-13T17:25:38+05:30
+publishDate: 2019-12-13T17:46:36+05:30
 
 authors: [rohit]
-tags: [blackhat,web-hacking]
+tags: [devsecops]
 
 # Is this a featured talk? (true/false)
 featured: false
