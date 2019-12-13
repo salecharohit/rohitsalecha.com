@@ -56,7 +56,7 @@ Listing Installed Chocolatey programs
 ```bash
 clist -l
 ```
->![Chocolatey Listing](https://lh5.googleusercontent.com/I0OIx2f0cbJm570yIcm7shP5CxveOdfRKDVH3MEdTgNjqX28FEJFS1Q3WLvbWg-jcT0eZbO2imlAJ1A4NicwI_EFm17v9NGLdTzg4ThR9oSwnhEqG2mWkOtCZDIE7U_isY_c1v8E)
+![Chocolatey Listing](https://lh5.googleusercontent.com/I0OIx2f0cbJm570yIcm7shP5CxveOdfRKDVH3MEdTgNjqX28FEJFS1Q3WLvbWg-jcT0eZbO2imlAJ1A4NicwI_EFm17v9NGLdTzg4ThR9oSwnhEqG2mWkOtCZDIE7U_isY_c1v8E)
 
 #### Updating installed chocolatey packages
 Just one command will update all your chocolatey packages
@@ -66,10 +66,10 @@ cups all -y
 
 The best way to use this command is by executing it using a task scheduler. This will guarantee that all your softwares are updated to the latest versions.
 Ensure to check the “Run with highest privileges” option. Else choco won't be able to update anything.
->![Starting Task Manager](https://lh5.googleusercontent.com/8du-CLvIDugxCK4OqJipRUtBb00cnhw0NxS2CISyqpv4d8gD0egjyYK8SWzAVn4Fzw-dduLXj-bvE91eO0Lw1BXU_lpMIrHSopm_j20_sybfzYUlaCNeUYX3mALlIcMl4Em7Pnib)
+![Starting Task Manager](https://lh5.googleusercontent.com/8du-CLvIDugxCK4OqJipRUtBb00cnhw0NxS2CISyqpv4d8gD0egjyYK8SWzAVn4Fzw-dduLXj-bvE91eO0Lw1BXU_lpMIrHSopm_j20_sybfzYUlaCNeUYX3mALlIcMl4Em7Pnib)
 
 Adding the Task  Scheduler action
->![Adding Task Scheduler](https://lh4.googleusercontent.com/CZfGtCEj4LwRaQTvA0aCX-xBf-2kHRGphXNXvsCcbg-9jAe_r-ozf0GNg35xW7_yIxuFDPrcTuIhKkbkzNa2ih8X4YG-pN3-OQhbJKsZvXbEQvgfcbWK1-nzRXzwFynz8rZAaOdP)
+![Adding Task Scheduler](https://lh4.googleusercontent.com/CZfGtCEj4LwRaQTvA0aCX-xBf-2kHRGphXNXvsCcbg-9jAe_r-ozf0GNg35xW7_yIxuFDPrcTuIhKkbkzNa2ih8X4YG-pN3-OQhbJKsZvXbEQvgfcbWK1-nzRXzwFynz8rZAaOdP)
 
 ### ConEmu - Terminal Emulator for Windows
 
@@ -80,7 +80,7 @@ One of the biggest pain point for developers with Windows is the terminal. No mu
 
 ConEmu has plenty of configurations and everything is saved in the ConEmu.xml which will give this below multi-tabbed Windows emulator.
 
->![ConEmu](https://lh3.googleusercontent.com/NpOtJ_57Fmyee04wNknSaGtRRXOFdOvrA-nlzGL0BFcdBAJlkkQ_MPVodJj1K_wv1SxlMObgnibJNQ-0Skqs5JUgK4-9_vEMJFg8Z0EkbrbD5F92w45EyWOXw8Y70ZRLEOINEBoa)
+![ConEmu](https://lh3.googleusercontent.com/NpOtJ_57Fmyee04wNknSaGtRRXOFdOvrA-nlzGL0BFcdBAJlkkQ_MPVodJj1K_wv1SxlMObgnibJNQ-0Skqs5JUgK4-9_vEMJFg8Z0EkbrbD5F92w45EyWOXw8Y70ZRLEOINEBoa)
 
 Some interesting shortcuts that I have configured within my [ConEmu.xml](https://github.com/salecharohit/desktop-configurations/blob/master/ConEmu.xml)
 
@@ -96,7 +96,7 @@ Windows+W
 
 Windows+Shift+W
 
->![Open New Tabs](https://lh6.googleusercontent.com/uvD1-1OPaNB4z2f4kOMSxwpU-QhfJYzhHAbw02d9jpMo8oVrdbxtuIeywhmNofSsTHsFpt8sCZDYcGVnSIgQer3MfRA4G4qWXTSoiF7bxCIQHMY1ErYRgfIEx1C7tOF11El6mo0l)
+![Open New Tabs](https://lh6.googleusercontent.com/uvD1-1OPaNB4z2f4kOMSxwpU-QhfJYzhHAbw02d9jpMo8oVrdbxtuIeywhmNofSsTHsFpt8sCZDYcGVnSIgQer3MfRA4G4qWXTSoiF7bxCIQHMY1ErYRgfIEx1C7tOF11El6mo0l)
 
 **Renaming A Tab**
 
@@ -129,12 +129,12 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 Once the process is complete , open the Microsoft Store app and search for Ubuntu and install that app.
 Other options available
 
->![Other Options for Linux](https://lh6.googleusercontent.com/wtQZz98uwbllX4P1-pfZ-O2wrkcxfBKhDWU1_koN5p-JvxQlC3z77nQxYxNZ3ixI0KPgBfDsOKIUUWCVHFwv0n-hsSFnUHWQMXYj-3rNgAA6DxA8YX-0lYPutxo0kCcEybqUiEeW)
+![Other Options for Linux](https://lh6.googleusercontent.com/wtQZz98uwbllX4P1-pfZ-O2wrkcxfBKhDWU1_koN5p-JvxQlC3z77nQxYxNZ3ixI0KPgBfDsOKIUUWCVHFwv0n-hsSFnUHWQMXYj-3rNgAA6DxA8YX-0lYPutxo0kCcEybqUiEeW)
 
 System restart will be required at this point.
 After system restart , simply type in “bash” from anywhere Run Prompt , Explorer , Windows command prompt and you’ll be asked to create a linux user after which you are all set to use Ubuntu on Windows !
 
->![Running Linux commands on WSL](https://lh6.googleusercontent.com/LBMxw6VAotZMr1tf8jVdSXBphZjnUPj2vQtX-3kjMW121SRx05jVDKPF3YPpjkZ5UlnGIN0OxtPBM3Pm2hXFLGKhxMzo_5PkF-TZVweBY6UfQJlRzaINm7CoSLy__YWpGhv9rIEN)
+![Running Linux commands on WSL](https://lh6.googleusercontent.com/LBMxw6VAotZMr1tf8jVdSXBphZjnUPj2vQtX-3kjMW121SRx05jVDKPF3YPpjkZ5UlnGIN0OxtPBM3Pm2hXFLGKhxMzo_5PkF-TZVweBY6UfQJlRzaINm7CoSLy__YWpGhv9rIEN)
 
 #### WSL Tweaks
 
@@ -145,7 +145,7 @@ All the linux folders are created at this location in WSL
 ```windows
 C:\Users\%USERNAME%\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\
 ```
->![WSL Home Directory](https://lh4.googleusercontent.com/49z50G-EU9-iLkQHewYSogTj-DI_Bv-vwHAsr-Erk3nCXTReUihTwdXjmmvuzBleEUbRH-1eEnDPOGxFlX2BC1MWcYN-frSoaYyBipPneLItZANT8LBoTWgP1vnV14vh9YzMiJpF)
+![WSL Home Directory](https://lh4.googleusercontent.com/49z50G-EU9-iLkQHewYSogTj-DI_Bv-vwHAsr-Erk3nCXTReUihTwdXjmmvuzBleEUbRH-1eEnDPOGxFlX2BC1MWcYN-frSoaYyBipPneLItZANT8LBoTWgP1vnV14vh9YzMiJpF)
 
 Now when in the Ubuntu shell when you do cd ~ , you’ll be directed to the /home/<username> directory in the above location. What this means is that WSL and Windows both have a different home directory.
 
@@ -190,14 +190,14 @@ WSL is maturing at a rapid pace and increasingly becoming a must-have utility fo
 
 #### Executing Windows binaries from within Ubuntu shell
 By default when WSL is installed , it’ll append the Windows PATH to ubuntu’s PATH as shown below.
->![Windows Path in WSL](https://lh5.googleusercontent.com/eonH8XcXxuXC6WHLov5XoFstoJRdt_q7mybBioLP0cj50_vK0muuCzxMyJoO1AT1hfSAWpoI8WY7fgwxbITEo6Gwb7lFcFVKtPlcaikDg_6fo5FP_vvJ6jq-N7YDL1wOsbJeYEvN)
+![Windows Path in WSL](https://lh5.googleusercontent.com/eonH8XcXxuXC6WHLov5XoFstoJRdt_q7mybBioLP0cj50_vK0muuCzxMyJoO1AT1hfSAWpoI8WY7fgwxbITEo6Gwb7lFcFVKtPlcaikDg_6fo5FP_vvJ6jq-N7YDL1wOsbJeYEvN)
 
 What this means is since ``` /mnt/c/Windows ```is already part of the PATH in ubuntu , i can easily run commands like explorer.exe and open file browser for that directory. However , if i wish to open chrome.exe or any other program from with bash shell then it wont work.
 
->![Windows Programs in WSL](https://lh5.googleusercontent.com/JXiVQcgCHRfDFtp72nBEKgF17uO2z9CPXv8_nQRXGqMWvL8g3p3_aFezO8ntSXpI_xNmfSBP9ZdQ6UA5-4xlDC7alBANscLqlzh3Fs7GHDLfqGNVoO9o_xDppIZ3zxBuLvmAkEVG)
+![Windows Programs in WSL](https://lh5.googleusercontent.com/JXiVQcgCHRfDFtp72nBEKgF17uO2z9CPXv8_nQRXGqMWvL8g3p3_aFezO8ntSXpI_xNmfSBP9ZdQ6UA5-4xlDC7alBANscLqlzh3Fs7GHDLfqGNVoO9o_xDppIZ3zxBuLvmAkEVG)
 
 So now , in order to open chrome.exe from bash , all we need to do is add chrome.exe in Windows PATH ! That is it ! WSL will automatically append the PATH from windows.
->![Appending Windows Path](https://lh6.googleusercontent.com/uecUOB8KwuUna1y3ypwDkOdyqKF0v9Z5mjbK5vwVlczn4ZuhdAKMA-i-hBRZW1RNe6llysblSTgJCw9s-tuljXFCjQ0g91EVnryEh9GYIGrfMjSEIA7Ip-Oqi-tbsky_YZcuS1UI)
+![Appending Windows Path](https://lh6.googleusercontent.com/uecUOB8KwuUna1y3ypwDkOdyqKF0v9Z5mjbK5vwVlczn4ZuhdAKMA-i-hBRZW1RNe6llysblSTgJCw9s-tuljXFCjQ0g91EVnryEh9GYIGrfMjSEIA7Ip-Oqi-tbsky_YZcuS1UI)
 
 We only need to restart the bash shell and fire chrome.exe
 However this default setting can be unset by simply modifying the registry [flags for WSL](https://github.com/microsoft/WSL/issues/1493#issuecomment-417639271)
@@ -207,7 +207,7 @@ However this default setting can be unset by simply modifying the registry [flag
 
 How to go about executing a unix command on windows ?
 Simple just append ‘wsl’ to the command !
->![Append WSL to linux commands](https://lh4.googleusercontent.com/-Kgdq29j8s_dcb3koSrQYutzinw2tiJ4eahCU61yGc7CIR4BudIgQbn13rwTHMUW5zlXG7yk5WBLN7HjXVjUAAqhM3UbtPQDdhU6s7U9WVXlYfW5CGOKnNB1QkkqGAtiAFTcikzL)
+![Append WSL to linux commands](https://lh4.googleusercontent.com/-Kgdq29j8s_dcb3koSrQYutzinw2tiJ4eahCU61yGc7CIR4BudIgQbn13rwTHMUW5zlXG7yk5WBLN7HjXVjUAAqhM3UbtPQDdhU6s7U9WVXlYfW5CGOKnNB1QkkqGAtiAFTcikzL)
 
 It is recommended to use only one terminal as far as possible owing to the CRLF confusion amongst both operating systems. The line endings will be different when you save a text file from a windows prompt as against that from a linux prompt. Hence , by far i try to use bash as my default command prompt and even execute Windows binaries from there. For Ex: I am totally addicted to notepad++ so i wrote this small function in my .zshrc (you can add in .bashrc if you are using bash) which basically opens any file from bash prompt in notepad++
 
@@ -216,7 +216,7 @@ npp() {
         notepad++.exe "$1" &
 }
 ```
->![WSL Functions](https://lh5.googleusercontent.com/Bk23ygfoyUWpcxqu3UZNKgkR12yfnkha3Glxq4X0zolnioLnRiq_B9sTymjrfT68_lpt9eXXY7N7RJABYh9XJyY4VNKDEdP_a0s92dhDkVhi0CtFdNCZHbUVPlZqaK1Tdszp-clZ)
+![WSL Functions](https://lh5.googleusercontent.com/Bk23ygfoyUWpcxqu3UZNKgkR12yfnkha3Glxq4X0zolnioLnRiq_B9sTymjrfT68_lpt9eXXY7N7RJABYh9XJyY4VNKDEdP_a0s92dhDkVhi0CtFdNCZHbUVPlZqaK1Tdszp-clZ)
 
 ### Vagrant - Making VMs through code !
 
