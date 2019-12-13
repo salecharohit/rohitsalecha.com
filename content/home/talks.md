@@ -2,12 +2,12 @@
 # A Recent and Upcoming Talks section created with the Pages widget.
 # This section displays recent talks from `content/talk/`.
 
-widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
-title = "Recent & Upcoming Talks"
+title = "Talks/Trainings"
 subtitle = ""
 
 [content]
@@ -15,7 +15,7 @@ subtitle = ""
   page_type = "talk"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 10
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -24,15 +24,29 @@ subtitle = ""
   order = "desc"
 
   # Filter posts by a taxonomy term.
-  [content.filters]
-    tag = ""
-    category = ""
-    publication_type = ""
-    exclude_featured = false
-    exclude_past = false
-    exclude_future = false
+
+   filter_default = 0
+  
+  [[content.filter_button]]
+    name = "All"
+    tag = "*"
+
+  [[content.filter_button]]
+    name = "Talks"
+    tag = "talk"
+
+  [[content.filter_button]]
+    name = "Trainings"
+    tag = "training"  
+  
+  [[content.filter_button]]
+    name = "Upcoming"
+    tag = "upcoming"
     
 [design]
+
+  columns="2"
+
   # Toggle between the various page layout types.
   #   1 = List
   #   2 = Compact

@@ -9,19 +9,27 @@
   weight = 10
 
 [[main]]
+  name = "Posts"
+  url = "/#posts"
+  weight = 20
+
+[[main]]
   name = "Opinion"
   url = "/categories/opinion/"
-  weight = 20
+  weight = 21
+  parent = "Posts"
 
 [[main]]
   name = "Technology"
   url = "/categories/technology/"
-  weight = 30
+  weight = 22
+  parent = "Posts"
 
 [[main]]
   name = "Security"
   url = "/categories/security/"
-  weight = 40
+  weight = 23
+  parent = "Posts"
 
 # [[main]]
 #  name = "Projects"
@@ -29,9 +37,9 @@
 #  weight = 30
 
 [[main]]
-  name = "Talks"
+  name = "Speaking"
   url = "#talks"
-  weight = 50
+  weight = 30
 
 [[main]]
   name = "Contact"

@@ -24,7 +24,7 @@ all_day: true
 publishDate: 2019-12-13T17:25:38+05:30
 
 authors: [rohit]
-tags: [blackhat,web-hacking]
+tags: [blackhat,web-hacking,training]
 
 # Is this a featured talk? (true/false)
 featured: false

@@ -24,7 +24,7 @@ all_day: true
 publishDate: 2019-12-13T17:42:37+05:30
 
 authors: [rohit]
-tags: [deserialization]
+tags: [deserialization,talk]
 
 # Is this a featured talk? (true/false)
 featured: false

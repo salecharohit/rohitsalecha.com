@@ -2,9 +2,9 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Basic Web Hacking"
-event: Blackhat USA 2017
-event_url: https://www.blackhat.com/us-17/training/basic-web-hacking.html
-location: Las Vegas
+event: "Blackhat USA 2017"
+event_url: "https://www.blackhat.com/us-17/training/basic-web-hacking.html"
+location: "Las Vegas"
 address:
   street:
   city:
@@ -24,7 +24,7 @@ all_day: true
 publishDate: 2019-12-13T17:25:38+05:30
 
 authors: [rohit]
-tags: [blackhat,web-hacking]
+tags: [blackhat,web-hacking,training]
 
 # Is this a featured talk? (true/false)
 featured: false

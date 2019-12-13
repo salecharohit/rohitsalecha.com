@@ -25,7 +25,7 @@ all_day: true
 publishDate: 2019-12-13T17:53:29+05:30
 
 authors: [rohit]
-tags: [devsecops]
+tags: [devsecops,training]
 
 # Is this a featured talk? (true/false)
 featured: false
