@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Reloation to Dubai"
+title: "Relocation to Dubai"
 subtitle: "If you are relocating to Dubai read on ..."
 summary: "in this blog i summarise my entire experience of relocating to Dubai from expenses to medical,from visa to transportation.If you have just relocated to Dubai read on ..."
 authors: [rohit]
