@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Principal Security Consultant"
+  title = "Cyber Security Consultant"
   company = "NotSoSecure"
   company_url = "https://www.notsosecure.com"
   location = "Mumbai"
@@ -27,12 +27,17 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
 
+  * Security Architecture Review 
+    - Being a developer at heart Rohit has experience in understanding how a typical software development environment operates.
+    - He has performed architecture reviews of various such environments whether they are running in traditional IT or the modern DevOps stack.
+    - His architecture reviews involve understanding the current high-level architecture then drilling deep down into the technology stack and suggesting the security best practices.
+    - Got acknowleged as [**50 Influential DevSecOps Professionals**](https://www.peerlyst.com/posts/peerlyst-community-ebook-50-influential-devsecops-professionals-peerlyst) by Peerlyst for 2019.
+
   * Pentesting
     - Web,Mobile and API pentesting of applications from various industries
-    - Researching for new tools and techniques for pentesting by and feeding it back to the team
-    - Consulting clients on secure architecture and DevSecOps.
-    - Got acknowleged as [**50 Influential DevSecOps Professionals**](https://www.peerlyst.com/posts/peerlyst-community-ebook-50-influential-devsecops-professionals-peerlyst) by Peerlyst for 2019.
-    - Writing informational [blogs](https://www.notsosecure.com/author/rohit/) for NotSoSecure
+    - Researching for new tools and techniques for pentesting by and feeding it back to the team.
+    - Writing informational [blogs](https://www.notsosecure.com/author/rohit/) for NotSoSecure to share back with the community.
+
 
   * Training
     - Lead trainer for three of the most selling classes of NotSoSecure viz. [Application Security for Developers](https://www.notsosecure.com/hacking-training/appsec-for-developers/),[DevSecOps](https://www.notsosecure.com/hacking-training/devsecops/) and [AppSecOps](https://www.notsosecure.com/hacking-training/appsecops/) and delivered this class across the globe i.e. UK,EU and USA to various clients and training partners like [QA](https://www.qa.com/course-catalogue/courses/application-security-for-developers-qaappsec/) and [Checkpoint](https://www.checkpoint.com/solutions/devops-security/).
