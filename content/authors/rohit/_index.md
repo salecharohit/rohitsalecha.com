@@ -25,6 +25,7 @@ interests:
 - Red Team Assessments
 - DevOps and DevSecOps
 - Cloud Infrastruture
+- Security Architecture Review
 
 education:
   courses:
