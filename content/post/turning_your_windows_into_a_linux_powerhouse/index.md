@@ -150,6 +150,7 @@ But this would not really work because by default , WSL is not allowed to modify
 This [blog by Microsoft](https://devblogs.microsoft.com/commandline/chmod-chown-wsl-improvements/) details the update of WSL which enables us to modify ACLs of windows files. 
 Fire up a terminal and lets first unmount the c drive on WSL and then remount if using the metadata flag as shown below
 ```bash
+cd /
 sudo umount /mnt/c -f
 sudo mount -t drvfs C: /mnt/c -o metadata
 ```
@@ -158,6 +159,7 @@ Next create a file ``` /etc/wsl.conf ``` and add the below data in it and restar
 ```bash
 # Enable extra metadata options by default
 [automount]
+root = /
 enabled = true
 options = "metadata,umask=22,fmask=11"
 mountFsTab = true
@@ -176,10 +178,10 @@ WSL is maturing at a rapid pace and increasingly becoming a must-have utility fo
 Now when in the Ubuntu shell when you do cd ~ , you’ll be directed to the /home/<username> directory in the above location. What this means is that WSL and Windows both have a different home directory.
 
 Now this was a big problem for me because I rely heavily on SSH keys and the config file stored in the .ssh directory of the home folder to connect to my servers. If we install WSL it would definitely be a good idea to disable the OpenSSH installed by Windows by default and rather use the OpenSSH of Linux sub-system , after all we are installing it for leveraging all the linux capabilities.What needs to be done in this scenario is to keep a copy of all the data in the .ssh folder in the sub-systems ```/home/<username>/.ssh ``` folder which i am sure you would agree is a big pain.
-After researching a bit and reading plenty of blogs I followed the solution [here](https://www.brianketelsen.com/going-overboard-with-wsl-metadata/) to simply modify the home path of the linux user in the ``` /etc/passwd ``` file from ``` /home/<username> ``` to ``` /mnt/c/Users/<username> ``` as shown below.
+After researching a bit and reading plenty of blogs I followed the solution [here](https://www.brianketelsen.com/going-overboard-with-wsl-metadata/) to simply modify the home path of the linux user in the ``` /etc/passwd ``` file from ``` /home/<username> ``` to ``` /c/Users/<username> ``` as shown below.
 
 ```bash
-ubuntu:x:1000:1000:,,,:/mnt/c/Users/rohit:/bin/bash
+ubuntu:x:1000:1000:,,,:/c/Users/rohit:/bin/bash
 ```
 After modifying the /etc/passwd file ensure you copy all the .bashrc and .profile and other files from your sub-system home directory to Windows home and restart your terminal and type cd ~. This time you’ll be directed to the home directory of Windows ! Means now your Unix system and your Windows system are sharing a common home directory ! You can now use the SSH config and key files stored in the Windows home directory and use the ssh command of the ubuntu system !
 
