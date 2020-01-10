@@ -27,17 +27,22 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
 
+  * Security Automation
+    - He loves automating his tasks and has also blogged about few of them in the [Technology](https://www.rohitsalecha.com/categories/technology/) section.
+    - He is a big fan of DevOps methodology and he loves to play around with devops tools like Jenkins,Docker,Kubernetes,Vagrant and Ansible.
+    - At NotSoSecure he has build the entire DevSeCops course from ground-up involving plenty of automation.
+    - Got acknowleged as [**50 Influential DevSecOps Professionals**](https://www.peerlyst.com/posts/peerlyst-community-ebook-50-influential-devsecops-professionals-peerlyst) by Peerlyst for 2019.
+    - Hence he is responsible for identifying tasks which can be automated at NotSoSecure.
+
   * Security Architecture Review 
     - Being a developer at heart Rohit has experience in understanding how a typical software development environment operates.
     - He has performed architecture reviews of various such environments whether they are running in traditional IT or the modern DevOps stack.
     - His architecture reviews involve understanding the current high-level architecture then drilling deep down into the technology stack and suggesting the security best practices.
-    - Got acknowleged as [**50 Influential DevSecOps Professionals**](https://www.peerlyst.com/posts/peerlyst-community-ebook-50-influential-devsecops-professionals-peerlyst) by Peerlyst for 2019.
 
   * Pentesting
     - Web,Mobile and API pentesting of applications from various industries
     - Researching for new tools and techniques for pentesting by and feeding it back to the team.
     - Writing informational [blogs](https://www.notsosecure.com/author/rohit/) for NotSoSecure to share back with the community.
-
 
   * Training
     - Lead trainer for three of the most selling classes of NotSoSecure viz. [Application Security for Developers](https://www.notsosecure.com/hacking-training/appsec-for-developers/),[DevSecOps](https://www.notsosecure.com/hacking-training/devsecops/) and [AppSecOps](https://www.notsosecure.com/hacking-training/appsecops/) and delivered this class across the globe i.e. UK,EU and USA to various clients and training partners like [QA](https://www.qa.com/course-catalogue/courses/application-security-for-developers-qaappsec/) and [Checkpoint](https://www.checkpoint.com/solutions/devops-security/).

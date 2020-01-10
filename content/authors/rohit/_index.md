@@ -24,6 +24,7 @@ interests:
 - Web,Mobile and API Security
 - Red Team Assessments
 - DevOps and DevSecOps
+- Security Automation
 - Cloud Infrastruture
 - Security Architecture Review
 
