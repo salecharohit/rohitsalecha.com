@@ -215,7 +215,7 @@ With the docker run command we can now run our java application exclusively on p
 
 When running docker containers following are few of the considerations that must be taken into account
 
-#### A) Running Docker containers with least privileges
+##### A) Running Docker containers with least privileges
    By default most Docker containers run with root privileges.
    When you run the below Dockerfile by default all the commands are being executed with the root user.
 
@@ -237,7 +237,7 @@ https://github.com/salecharohit/devops/blob/master/backend/Dockerfile
 
 ![secure dockerfiel](img/11.png)
 
-#### B) Exposing Docker Ports 
+##### B) Exposing Docker Ports 
 
 When we run the command 
 ```bash
@@ -252,7 +252,7 @@ That can be avoided by simply running the docker command as below. This allows p
 docker run -p 127.0.0.1:8090:8080
 ```
 
-#### C) Reducing Attack Surface of Docker Containers
+##### C) Reducing Attack Surface of Docker Containers
 
 In Most dockerfiles that are imported using the FROM keyword , the base OS is a heavy Ubuntu/CentoOs image.
 
@@ -270,7 +270,7 @@ Here is a good guide to get started with slimming your containers
 https://towardsdatascience.com/slimming-down-your-docker-images-275f0ca9337e
 
 
-#### D) Never expose /var/run/docker.sock
+##### D) Never expose /var/run/docker.sock
 
 I've seen a few tutorials where folks expose the docker.sock by mounting them as volumes
 

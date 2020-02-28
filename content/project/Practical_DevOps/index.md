@@ -7,6 +7,7 @@ authors: [rohit]
 tags: [devops]
 categories: []
 date: 2020-02-24T18:35:59+05:30
+toc: true
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://github.com/salecharohit/devops"
@@ -259,7 +260,7 @@ Finally, checkout our Continous Monitoring in action using elasticsearch kibana 
 
 ### Troubleshooting
 
-#### 1. Vagrant stuck/Network Disconnected/Ansible Error as shown below
+##### 1. Vagrant stuck/Network Disconnected/Ansible Error as shown below
 ![vagrant not working](img/30.png)
 The best solution here is to first check the status using
 ```bash
@@ -287,7 +288,7 @@ vagrant up jenkins.devops --provision
 ```
 The reason why we need to do this is because Jenkins needs to read the SSH keys of these servers in order to execute commands remotely.
 
-#### 2. Production Application is failing to start
+##### 2. Production Application is failing to start
 If your production application is not showing any data its most likely because the vault token has expired. The best solution is to regenerate it using the following commands
 ```
 vagrant ssh vault.devops
@@ -300,7 +301,7 @@ Below is the asciinema roll for the above commands
 
 {{< asciinema key="vaulttoken" rows="25" preload="1" >}}
 
-#### 3. Vagrant SSH getting stuck or Vagrant machines not booting
+##### 3. Vagrant SSH getting stuck or Vagrant machines not booting
 
 !1[vagrant not booting](img/32.png)
 
@@ -309,7 +310,7 @@ If you are running inside an Ubuntu Guest VM then ensure that virtualization has
 
 ![virtualization not enabled](img/33.png)
 
-#### 4. Jenkins Version Update
+##### 4. Jenkins Version Update
 
 When installing Jenkins using the [geerlinguy-jenkins-role](https://github.com/geerlingguy/ansible-role-jenkins) there is an open issues where any version above 2.191 the automatic plugin installation fails. Below is the link to the issues in question.
 [https://github.com/geerlingguy/ansible-role-jenkins/issues/269](https://github.com/geerlingguy/ansible-role-jenkins/issues/269)

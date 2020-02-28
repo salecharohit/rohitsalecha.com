@@ -30,18 +30,18 @@ projects: []
 
 Having a space to express your thoughts or share your knowledge is a soul satisfying endeavour for many. Hence there are multiple blogging platforms like Blogger,Wordpress etc… where we can easily create a website and start writing. I previously used Wordpress(hosted) and Blogger but eventually moved to having a platform which is more flexible to my needs and requirements.
 
-#### Issues with hosted Wordpress solution
+## Issues with hosted Wordpress solution
 If you are using wordpress hosted solution you need to constantly update your plugins and your wordpress core from time to time
 
 Another big problem is of managing TLS certificates. Renewal , payments and configuration everything has to be done manually and to be honest just for a simple blog it was an overkill.
 
-#### Issues with Blogger
+## Issues with Blogger
 
 Blogger was definitely a notch better than wordpress as i did not have to worry about managing the application and it also provided a TLS certificate with integration with LetsEncrypt. However the customization options and theming options were very much limited.
 
 I tried to customize my blog adding HTML and CSS but then it becomes difficult to manage the content.
 
-#### Hugo,Netlify and Academic
+## Hugo,Netlify and Academic
 
 This blog is built using Hugo,Netlify and Academic.
 
@@ -58,13 +58,13 @@ The basic advantage of using this approach are
 
 So if you are also looking for building a personal blog using Hugo,Academic and Netlify then follow on
 
-#### Accounts Creation
+### Accounts Creation
 
 Firstly,you’ll need to create an account with [Netlify https://app.netlify.com/signup](https://app.netlify.com/signup) to host your blog and [Github](https://github.com/),Gitlab or Bitbucket to store your content.
 Netlify shall pull the source from your respective repo and build your website using Hugo
 Optionally if you would like to have comments on your posts then you can also create an account on Disqus(https://disqus.com/)
 
-#### Installation
+### Installation
 
 Instructions to install Academic and Hugo on Netlify have been detailed here [https://sourcethemes.com/academic/docs/install/](https://sourcethemes.com/academic/docs/install/) 
 
@@ -94,7 +94,7 @@ Lets browse to this new site
 
 > Congratulations ! A brand new Blog with Hugo and Academic is ready !
 
-#### Customizing Your Blog
+## Customizing Your Blog
 
 Next,we are now interested in customizing our website. All we now need to do is move over to our Github repo and simply make the changes ! For Ex: I’ll head over to the [https://github.com/salecharohit/testsite.com/blob/master/content/home/demo.md](https://github.com/salecharohit/testsite.com/blob/master/content/home/demo.md) and delete the demo.md file.
 
@@ -135,7 +135,7 @@ git push
 
 > Awesome ! You are all set to make changes to your own Blog !
 
-#### Understanding the Hugo+Academic Environment
+## Understanding the Hugo+Academic Environment
 
 Before we start with anything open a terminal and cd into your repo folder and fire the view.sh script
 ![view.sh hugo](img/9.png)
@@ -187,7 +187,7 @@ View the changes
 
 Academic has many options to take your blog to the next level using [Markdown,Latex and many inbuilt shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).Your imagination is the limit !
 
-#### Customizing Domain
+## Customizing Domain
 
 Using Netlify you can customize the domain name by clicking on “Overview” → “Site Settings” → “Site Details” and “Edit Site Name” as shown below.
 

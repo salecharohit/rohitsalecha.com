@@ -185,7 +185,7 @@ ubuntu:x:1000:1000:,,,:/c/Users/rohit:/bin/bash
 ```
 After modifying the /etc/passwd file ensure you copy all the .bashrc and .profile and other files from your sub-system home directory to Windows home and restart your terminal and type cd ~. This time you’ll be directed to the home directory of Windows ! Means now your Unix system and your Windows system are sharing a common home directory ! You can now use the SSH config and key files stored in the Windows home directory and use the ssh command of the ubuntu system !
 
-#### Executing Windows binaries from within Ubuntu shell
+##### Executing Windows binaries from within Ubuntu shell
 By default when WSL is installed , it’ll append the Windows PATH to ubuntu’s PATH as shown below.
 ![Windows Path in WSL](img/8.png)
 
@@ -200,7 +200,7 @@ We only need to restart the bash shell and fire chrome.exe
 However this default setting can be unset by simply modifying the registry [flags for WSL](https://github.com/microsoft/WSL/issues/1493#issuecomment-417639271)
 
 
-#### Executing Ubuntu binaries in Windows Shell
+##### Executing Ubuntu binaries in Windows Shell
 
 How to go about executing a unix command on windows ?
 Simple just append ‘wsl’ to the command !

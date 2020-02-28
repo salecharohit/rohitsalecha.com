@@ -36,13 +36,11 @@ I've created an entire [DevOps Lab]({{< relref "project/Practical_DevOps/index.m
 
 If you’ve landed to this page directly i recommend reading my previous blog on [Practical DevOps using Infrastructure as Code]({{< relref "post/Practical_DevOps_Infrastructure_As_Code_Vagrant_Ansible_Docker/index.md" >}})
 
-## Git
-
 Git is a powerful distributed version control system where we can manage our source code. The key element about Git is that it is “distributed” means there is a local copy on your machine and a main copy stored somewhere on your remote servers.
 
-### Git Fork
-
 Let’s understand git through a practical flow.We have another user ‘rohitdevopstest’ who wishes to  add a small feature to our existing repository [https://github.com/salecharohit/devops](https://github.com/salecharohit/devops)
+
+## Git Fork
 
 First thing that rohitdevopstest will need to do is ‘Fork’ our repository into his own account as shown below.
 
@@ -52,7 +50,7 @@ Once Fork is completed it’ll show something like below
 
 ![git fork](img/2.png)
 
-### Generating SSH-Keypair
+## Generating SSH-Keypair
 
 If you are a Windows user i recommend you first [install WSL(Windows Sub-system for Linux)]({{< relref "post/turning_your_windows_into_a_linux_powerhouse/index.md#installing-wsl" >}}) as it’ll make your life a lot easier to work with in a DevOps environment.
 
@@ -90,7 +88,7 @@ Then run `ssh github.com`
 
 ![connected to github](img/8.png)
 
-### Git Clone
+## Git Clone
 
 Now that we’ve added the key lets go ahead and clone the project.
 
@@ -105,7 +103,7 @@ git clone git@github.com:rohitdevopstest/devops.git
 
 ![git clone](img/10.png)
 
-### Working with Git
+## Working with Git
 
 Now let's make some changes and push it to the central repository by modifying the README.md file
 ![modify readme](img/11.png)
@@ -144,7 +142,7 @@ git push
 
 ![git push](img/14.png)
 
-### Git Branch
+## Git Branch
 
 Till now currently we were working only on the ‘master’ branch. What if we have a team member who would want to work on a new feature of our code. In this case it is not advisable to allow him to modify the contents of the ‘master’ branch. Hence,we create a new branch called “dev” and make a few changes there which will then be merged back to master.
 
@@ -175,7 +173,7 @@ Let's push our changes to the main repo
 
 ![](img/19.png)
 
-### Pull Request
+## Pull Request
 
 All the changes that we’ve done till now were done in the repository of the user ‘rohitdevopstest’. The below message from github also shows that the main repo ‘salecharohit:master’ is behind by 2 commits.
 
@@ -221,7 +219,7 @@ Coming back to our Local System , we now need to perform a git pull to merge the
 
 ![git pull](img/30.png)
 
-### Git Summary
+## Git Summary
 
 Below is the summary of commands that we saw
 
@@ -241,7 +239,7 @@ git merge <branch-name>
 git pull
 ```
 
-### Git Security Considerations
+## Git Security Considerations
 
 With using git a lot of times developers execute commands like `git add . `
 
@@ -263,7 +261,7 @@ For point 1) there are two approaches
 - Employing Pre-Commit Hooks
 - Tokenizing credentials
 
-#### Pre-Commit Hooks using Talisman
+## Pre-Commit Hooks using Talisman
 
 Pre-Commit or Pre-Push hooks are simple scripts that execute whenever you type the commands ‘git commit’ or ‘git push’ respectively. They analyze the changes made against a set of regexes and throw an error stopping the commit.These are extremely useful as they can help stop leakage of sensitive information.
 
@@ -303,13 +301,13 @@ Now let’s try to commit our changes. What we see is an error and our commit ha
 
 Hence,Talisman is a very good tool and a must to avoid leakage of sensitive information.
 
-##### Security Considerations with Talisman
+## Security Considerations with Talisman
 
 Talisman is not a silver bullet just like any security other tool/solution.The protection provided by Talisman is as effective as is the developers intention. It is quite possible that he/she may totally remove the check by simply deleting the binary located at the .git/hooks folder of your repository.
 
 Hence, having Talisman or any other pre-commit/pre-push hook will not provide a 100% assurance that data will not be leaked.
 
-#### Credentials Tokenization using Hashicorp Vault
+## Credentials Tokenization using Hashicorp Vault
 
 Every web application requires storing certain credentials to access services like databases.
 
@@ -336,7 +334,7 @@ In our environment the vault server is located at vault.devops:8200 and can be a
 
 `vagrant ssh vault.devops`
 
-##### Creating Tokens
+### Creating Tokens
 In order to tokenize a credential the follow the steps below
 
 1. Login into the Vault CLI using the root token
@@ -355,7 +353,7 @@ vault token create -policy=devopsdb -format=json | jq -r '.auth.client_token'
 The below asciinema roll shows the above commands in execution
 {{< asciinema key="vaulttoken" rows="25" preload="1" >}}
 
-##### Fetching Tokens
+### Fetching Tokens
 
 Once the tokens are created we then need to make use of Vault APIs from within our code to fetch the credentials “programmatically” 
 
@@ -368,7 +366,7 @@ The below few lines of code read the token,vault address,credential path “kv/d
 Vault API has support for almost all programming languages
 https://www.vaultproject.io/api/libraries.html 
 
-##### Vault Keys and Root Token
+### Vault Keys and Root Token
 
 For the vault binary to run we first need to initialise it with a configuration file
 ![vault config file](img/35.png)
