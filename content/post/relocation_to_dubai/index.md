@@ -11,7 +11,7 @@ date: 2015-07-03T15:39:33+05:30
 lastmod: 2019-12-03T15:39:33+05:30
 featured: false
 draft: false
-markup: mmark
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
@@ -114,11 +114,8 @@ After reading above , you might feel that things are quite expensive and that th
 
 I hope i have mentioned most of the points that you need to take care of. If you have any queries,please feel free to ask in the comments section. I'll be more than happy to help :-)
 
-{{% alert warning %}}
+> I moved out of Dubai in November 2016 and went back to India. So some of the figures of the expenses mentioned above maybe modified. So please check the official websites before visiting.
 
-  I moved out of Dubai in November 2016 and went back to India. So some of the figures of the expenses mentioned above maybe modified. So please check the official websites before visiting.
-
-{{% /alert %}}
 
 
 

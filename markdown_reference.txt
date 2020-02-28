@@ -1,0 +1,8 @@
+asciinema: true
+{{< asciinema key="vaulttoken" rows="25" preload="1" >}}
+> mysqlroot: tooor
+https://www.tablesgenerator.com/markdown_tables#
+{{< rawhtml >}}<br>{{< /rawhtml >}}
+[troubleshooting section]({{< relref "project/Practical_DevOps/index.md#troubleshooting" >}})
+{{< gist salecharohit c898cb661cca13abf184fb4a78066046 >}}
+![Ansible Shell Provisioning](img/2.png)

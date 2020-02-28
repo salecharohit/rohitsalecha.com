@@ -34,11 +34,11 @@ The following pictures, is a TL;DR of the difference between the SDLC process an
 
 #### Typical SDLC Process
 
-![Typical SDLC Process](https://lh6.googleusercontent.com/B66soHV9_N0R5EfMltKoOerTi3vTvt3z0a7Cetk-coGHeFi0U70i3O4TL5jI1LMz9BKAW6ZNzJWYQct59P4oDKWqHDJwaPOTLe-RcBVZgkGWGi_WChhw1CudiLi69_VHDPpsevb4)
+![Typical SDLC Process](img/1.png)
 
 #### Agile Process
 
-![Agile Process](https://lh3.googleusercontent.com/Zwo8ktco7IKgjpn0GZeTC32DDJADcX_Eef3OjmntqPgel9CyZyb8G-Rjwmq6vi3lM-1BBiof2J5bnFnGtnKNRKUdZqY4AcynLRUBr7nqZozq1tgDpkRiuQr_JDjG21TlFVQcGSHa)
+![Agile Process](img/2.png)
 
 Lets say we want to develop a Shopping Cart application over a period of 6 Months. In a typical SDLC process , we would first sit with the client and gather all their requirements. This requirements gathering stage would take approx 1 Month. After this , we would go to our design studio , and create a high level design of the application which would take another 15 days.During this time, we would also assemble the team and start the development which would take a yet another 3-4 Months. Once we do a UAT test of the application, we invite the client (after 6 months) and show them the product.
 

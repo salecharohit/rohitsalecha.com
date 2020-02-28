@@ -31,10 +31,10 @@
   weight = 23
   parent = "Posts"
 
-# [[main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 30
+[[main]]
+ name = "Projects"
+ url = "#projects"
+ weight = 30
 
 [[main]]
   name = "Speaking"
