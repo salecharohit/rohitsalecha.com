@@ -1,0 +1,121 @@
+<style>
+    /* toc style */
+  
+    #GoTop {
+      position: fixed;
+      left: 10px;
+      bottom: 30px;
+      background-color: #fafafa;
+      border: 1px solid rgba(0, 0, 0, .07);
+      border-radius: 1px;
+      -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+      background-clip: padding-box;
+      z-index: 999;
+      cursor: pointer;
+      font-size: 25px;
+      padding: 5px 10px;
+      color: #B10DC9;
+    }
+  
+    .toc {
+      position: fixed;
+      top: 50%;
+      left: 1%;
+      width: 10%;
+      transform: translateY(-50%);
+      /*background-color: #f6f6f6;*/
+      /*border: solid 1px #c9c9c9;*/
+      border-radius: 5px;
+      padding-bottom: 1rem;
+    }
+  
+    .nav ul li a:hover {
+      text-decoration: underline;
+      font-weight: bold;
+      color: #B10DC9;
+    }
+  
+    .toc .page-header {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: #fafafa;      
+    }
+  
+    .toc-nav ul {
+      /* overflow: scroll; */
+      /* width: 80%; */
+      white-space: nowrap;
+      line-height: 1rem;
+    }
+  
+    /* ignore h1 header */
+    .toc-nav ul ul ul {
+      margin-left: 1rem;
+    }
+  
+    .toc-nav .nav-link {
+      text-overflow: ellipsis;
+      /* overflow: hidden; */
+      color: #fafafa;
+    }
+  
+    /* Media Queries */
+    @media (max-width: 1080px) {
+      main {
+        max-width: 100%;
+      }
+      .toc {
+        display: none;
+      }
+    }
+  </style>
+  <!-- toc.html -->
+  <!-- ignore empty links with + -->
+  {{ $headers := findRE "<h[1-4].*?>(.|\n])+?</h[1-4]>" .Content }}
+  <!-- at least one header to link to -->
+  {{ if ge (len $headers) 1 }}
+  {{ $h1_n := len (findRE "(.|\n])+?" .Content) }}
+  {{ $re := (cond (eq $h1_n 0) "<h[2-4]" "<h[1-4]") }}
+  {{ $renum := (cond (eq $h1_n 0) "[2-4]" "[1-4]") }}
+  
+  <!--Scrollspy-->
+  <div class="toc">
+    <!-- <div class="toc"> -->
+  
+    <a class="page-header" href="#"><strong>Table Of Contents</strong></a>
+    <hr>
+    <div id="page-scrollspy" class="toc-nav">
+  
+      {{ range $headers }}
+      {{ $header := . }}
+      {{ range first 1 (findRE $re $header 1) }}
+      {{ range findRE $renum . 1 }}
+      {{ $next_heading := (cond (eq $h1_n 0) (sub (int .) 1 ) (int . ) ) }}
+      {{ range seq $next_heading }}
+      <ul class="nav" id="">
+        {{end}}
+        {{ $anchorId := (replaceRE ".* id=\"(.*?)\".*" "$1" $header ) }}
+        <li class="nav-item">
+          <a class="nav-link text-left" href="#{{ $anchorId }}">
+            {{ $header | plainify | htmlUnescape }}
+          </a>
+        </li>
+        <!-- close list -->
+        {{ range seq $next_heading }}
+      </ul>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+  
+    </div>
+  
+  </div>
+  <!--Scrollspy-->
+  <aside>
+    <a href="#" id="GoTop">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+  </aside>
+  {{ end }}
