@@ -50,7 +50,7 @@ These were all manual steps and required my attention for at least 60-120 minute
 
 And [here](https://github.com/salecharohit/devops/blob/master/Vagrantfile) is a little more complex Vagrantfile which is looping through the [hosts.yml](https://github.com/salecharohit/devops/blob/master/hosts.yml) file to setup different virtual machines of different operating systems,IP Addresses,RAM size,CPU etc…
 
-### Vagrant Security Considerations 
+### Security Considerations 
 
 Vagrant when provisioning the machines creates a default user ‘vagrant:vagrant’ and also creates a public/private key pair in the location
 .vagrant/machines/<machine-name>/virtualbox/private_key
@@ -164,7 +164,7 @@ I observed an issue with the way Ansible works and i thought its best to share i
 3. Run commands using the privileges of the newly created group ( Attempt to run commands using the privileges of the test group lets say accessing /opt/test/test.py)
 4. Step 3 shall fail as ansible will not refresh groups while running the playbook. Because the privileges that you were expecting vagrant to inherit was not done.
 
-### Ansible Security Considerations
+### Security Considerations
 Only specific folks should be allowed to invoke ansible commands , because using ansible we can potentially execute commands in all the machines that are provisioned using ansible.
 
 Ansible playbooks may contain sensitive information like passwords which maybe used while provisioning as an example below. While using Ansible with vagrant the interactive session is disabled.
@@ -211,7 +211,7 @@ curl 127.0.0.1:8090
 ```
 With the docker run command we can now run our java application exclusively on port 8090 and completely isolated from the host machine.
 
-### Docker Security Considerations
+### Security Considerations
 
 When running docker containers following are few of the considerations that must be taken into account
 

@@ -261,7 +261,7 @@ For point 1) there are two approaches
 - Employing Pre-Commit Hooks
 - Tokenizing credentials
 
-## Pre-Commit Hooks using Talisman
+### Pre-Commit Hooks
 
 Pre-Commit or Pre-Push hooks are simple scripts that execute whenever you type the commands ‘git commit’ or ‘git push’ respectively. They analyze the changes made against a set of regexes and throw an error stopping the commit.These are extremely useful as they can help stop leakage of sensitive information.
 
@@ -301,13 +301,13 @@ Now let’s try to commit our changes. What we see is an error and our commit ha
 
 Hence,Talisman is a very good tool and a must to avoid leakage of sensitive information.
 
-## Security Considerations with Talisman
+##### Security Considerations with Talisman
 
 Talisman is not a silver bullet just like any security other tool/solution.The protection provided by Talisman is as effective as is the developers intention. It is quite possible that he/she may totally remove the check by simply deleting the binary located at the .git/hooks folder of your repository.
 
 Hence, having Talisman or any other pre-commit/pre-push hook will not provide a 100% assurance that data will not be leaked.
 
-## Credentials Tokenization using Hashicorp Vault
+### Credentials Tokenization
 
 Every web application requires storing certain credentials to access services like databases.
 
@@ -334,7 +334,7 @@ In our environment the vault server is located at vault.devops:8200 and can be a
 
 `vagrant ssh vault.devops`
 
-### Creating Tokens
+##### Creating Tokens
 In order to tokenize a credential the follow the steps below
 
 1. Login into the Vault CLI using the root token
@@ -353,7 +353,7 @@ vault token create -policy=devopsdb -format=json | jq -r '.auth.client_token'
 The below asciinema roll shows the above commands in execution
 {{< asciinema key="vaulttoken" rows="25" preload="1" >}}
 
-### Fetching Tokens
+##### Fetching Tokens
 
 Once the tokens are created we then need to make use of Vault APIs from within our code to fetch the credentials “programmatically” 
 
@@ -366,7 +366,7 @@ The below few lines of code read the token,vault address,credential path “kv/d
 Vault API has support for almost all programming languages
 https://www.vaultproject.io/api/libraries.html 
 
-### Vault Keys and Root Token
+##### Vault Keys and Root Token
 
 For the vault binary to run we first need to initialise it with a configuration file
 ![vault config file](img/35.png)

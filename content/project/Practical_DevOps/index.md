@@ -72,7 +72,7 @@ TL;DR
 2. Local Git is being used as the SCM
 3. Jenkins is being used as the CI/CD server for pulling changes from the SCM , building, packaging the code and then deploying it onto the staging and production servers.
 4. Staging and Production servers are running docker and jenkins will run the docker images of our application
-5. Filebeats is deployed on staging as well as production API servers to feed the logs to logstash.Logstash ships them 6.to Elasticsearch and Kibana is used to view them real-time.
+5. Filebeats is deployed on staging as well as production API servers to feed the logs to logstash.Logstash ships them to Elasticsearch and Kibana is used to view them real-time.
 6. For archiving our builds we are using a simple ubuntu machine to store the api and frontend build files.
 
 ![DevOps Lab - Architecture](img/1.png)
