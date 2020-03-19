@@ -290,7 +290,7 @@ The reason why we need to do this is because Jenkins needs to read the SSH keys 
 
 ##### 2. Production Application is failing to start
 If your production application is not showing any data its most likely because the vault token has expired. The best solution is to regenerate it using the following commands
-```
+```bash
 vagrant ssh vault.devops
 vault status
 cat /etc/vault/rootkey | vault login -
