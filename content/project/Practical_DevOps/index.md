@@ -303,7 +303,7 @@ Below is the asciinema roll for the above commands
 
 ##### 3. Vagrant SSH getting stuck or Vagrant machines not booting
 
-!1[vagrant not booting](img/32.png)
+![vagrant not booting](img/32.png)
 
 Check if Virtualization is enabled in your Host
 If you are running inside an Ubuntu Guest VM then ensure that virtualization has been enabled “vt-x” as shown below for Virtualbox.
