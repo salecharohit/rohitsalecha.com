@@ -24,8 +24,3 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Basic-Auth= "username:password123"
