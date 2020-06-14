@@ -32,14 +32,31 @@
   parent = "Posts"
 
 [[main]]
+  name = "Notes"
+  url = "/notes"
+  weight = 30
+
+[[main]]
+  name = "Tech"
+  url = "/notes/technology/"
+  weight = 31
+  parent = "Notes"
+
+[[main]]
+  name = "Pentesting"
+  url = "/notes/pentest/"
+  weight = 32
+  parent = "Notes"
+
+[[main]]
  name = "Projects"
  url = "#projects"
- weight = 30
+ weight = 40
 
 [[main]]
   name = "Speaking"
   url = "#talks"
-  weight = 30
+  weight = 50
 
 [[main]]
   name = "Contact"

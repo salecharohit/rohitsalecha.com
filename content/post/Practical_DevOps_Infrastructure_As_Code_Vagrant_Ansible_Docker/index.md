@@ -194,7 +194,7 @@ This is where Docker is extremely handy and it's just one of the many use cases 
 
 The below Dockerfile will do just the thing for us.
 
-```docker
+```dockerfile
 FROM openjdk:8-jre-alpine
 WORKDIR /home/ubuntu
 ADD test.jar test.jar
@@ -219,7 +219,7 @@ When running docker containers following are few of the considerations that must
    By default most Docker containers run with root privileges.
    When you run the below Dockerfile by default all the commands are being executed with the root user.
 
-```docker
+```dockerfile
 FROM openjdk:8-jre-alpine
 WORKDIR /home/ubuntu
 ADD test.jar test.jar

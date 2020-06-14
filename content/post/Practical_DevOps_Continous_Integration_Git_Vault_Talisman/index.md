@@ -73,7 +73,7 @@ Paste the contents of the github.pub file that was recently generated.
 
 Add a file called ‘config’ under the ~/.ssh folder (create it if it doesn’t exist) and enter the below details
 
-```plain
+```plaintext
 Host github.com
 Hostname github.com
 Port 22
