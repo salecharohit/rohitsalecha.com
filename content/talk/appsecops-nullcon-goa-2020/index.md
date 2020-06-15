@@ -26,7 +26,7 @@ all_day: true
 publishDate: 2019-12-13T17:56:31+05:30
 
 authors: [rohit]
-tags: [appsecops,upcoming,training]
+tags: [appsecops,training]
 
 # Is this a featured talk? (true/false)
 featured: false
