@@ -32,6 +32,11 @@
   parent = "Posts"
 
 [[main]]
+ name = "Projects"
+ url = "#projects"
+ weight = 40
+
+[[main]]
   name = "Notes"
   url = "/notes"
   weight = 30
@@ -47,11 +52,6 @@
   url = "/notes/pentest/"
   weight = 32
   parent = "Notes"
-
-[[main]]
- name = "Projects"
- url = "#projects"
- weight = 40
 
 [[main]]
   name = "Speaking"
