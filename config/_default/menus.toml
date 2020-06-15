@@ -34,23 +34,23 @@
 [[main]]
  name = "Projects"
  url = "#projects"
- weight = 40
+ weight = 30
 
 [[main]]
   name = "Notes"
   url = "/notes"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "Tech"
   url = "/notes/technology/"
-  weight = 31
+  weight = 41
   parent = "Notes"
 
 [[main]]
   name = "Pentesting"
   url = "/notes/pentest/"
-  weight = 32
+  weight = 42
   parent = "Notes"
 
 [[main]]
