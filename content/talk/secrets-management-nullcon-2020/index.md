@@ -24,7 +24,7 @@ all_day: false
 publishDate: 2020-05-28T17:36:46+05:30
 
 authors: [rohit]
-tags: [talks,webinar]
+tags: [talk]
 
 # Is this a featured talk? (true/false)
 featured: false
