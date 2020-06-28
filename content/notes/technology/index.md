@@ -91,21 +91,26 @@ CPU - $(percent(cpu.inuse)) | RAM - $(size(mem.user)) | Net  ↓ $(speed(net.dow
 
 ## Installing Minikube on Windows
 
-Install Virtualbox
-Install Chocolatey
-Install WSL
-Install Windows Terminal
-choco install kubernetes-cli
-choco install minikube
-minikube config set vm-driver virtualbox
-minikube start
-minikube dashboard
-minikube docker-env
-export DOCKER_TLS_VERIFY=1
-export DOCKER_HOST=tcp://192.168.99.100:2376
-export DOCKER_CERT_PATH=/c/Users/rohit/.minikube
-export MINIKUBE_ACTIVE_DOCKERD=minikube
-sudo apt-get install docker-ce
-sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)"  -o /usr/local/bin/docker-compose
-sudo mv /usr/local/bin/docker-compose /usr/bin/docker-compose
-sudo chmod +x /usr/bin/docker-compose
+
+- Install Virtualbox
+- Install Chocolatey
+- Install WSL
+- Install Windows Terminal
+```plaintext
+ choco install kubernetes-cli
+ choco install minikube
+ minikube config set vm-driver virtualbox
+ minikube start
+ minikube dashboard
+ minikube docker-env
+ export DOCKER_TLS_VERIFY=1
+ export DOCKER_HOST=tcp://192.168.99.100:2376
+ export DOCKER_CERT_PATH=/c/Users/rohit/.minikube
+ export MINIKUBE_ACTIVE_DOCKERD=minikube
+ sudo apt-get install docker-ce
+ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)"  -o /usr/local/bin/docker-compose
+ sudo mv /usr/local/bin/docker-compose /usr/bin/docker-compose
+ sudo chmod +x /usr/bin/docker-compose
+ docker info
+ docker-compose version
+ ```
