@@ -104,7 +104,7 @@ CPU - $(percent(cpu.inuse)) | RAM - $(size(mem.user)) | Net  ↓ $(speed(net.dow
  minikube dashboard
  minikube docker-env
  export DOCKER_TLS_VERIFY=1
- export DOCKER_HOST=tcp://192.168.99.100:2376
+ export DOCKER_HOST=tcp://$(minikube ip):2376
  export DOCKER_CERT_PATH=/c/Users/rohit/.minikube
  export MINIKUBE_ACTIVE_DOCKERD=minikube
  sudo apt-get install docker-ce
