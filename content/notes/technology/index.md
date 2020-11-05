@@ -98,6 +98,20 @@ CPU - $(percent(cpu.inuse)) | RAM - $(size(mem.user)) | Net  ↓ $(speed(net.dow
 - Install WSL
 - Install Windows Terminal
 
+*Add in .zshrc/.bashrc*
+
+> Replace rohit with your username
+
+ ```bash
+export DOCKER_TLS_VERIFY=1
+export DOCKER_HOST=tcp://$(minikube ip):2376
+export DOCKER_CERT_PATH=/c/Users/rohit/.minikube
+export MINIKUBE_ACTIVE_DOCKERD=minikube
+alias choco='choco.exe'
+alias kubectl='kubectl.exe'
+alias minikube='minikube.exe'
+ ```
+
 *Installation Commands*
 
 ```bash
@@ -113,17 +127,6 @@ CPU - $(percent(cpu.inuse)) | RAM - $(size(mem.user)) | Net  ↓ $(speed(net.dow
  sudo chmod +x /usr/bin/docker-compose
  docker info
  docker-compose version
- ```
-
-*Add in .bashrc*
-
-> Replace rohit with your username
-
- ```bashrc
- export DOCKER_TLS_VERIFY=1
- export DOCKER_HOST=tcp://$(minikube ip):2376
- export DOCKER_CERT_PATH=/c/Users/rohit/.minikube
- export MINIKUBE_ACTIVE_DOCKERD=minikube
  ```
 
  *Start Script*
