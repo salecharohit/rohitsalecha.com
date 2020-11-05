@@ -91,22 +91,22 @@ CPU - $(percent(cpu.inuse)) | RAM - $(size(mem.user)) | Net  ↓ $(speed(net.dow
 
 ## Installing Minikube on Windows
 
+*Pre-Requisites*
 
 - Install Virtualbox
 - Install Chocolatey
 - Install WSL
 - Install Windows Terminal
-```plaintext
+
+*Installation Commands*
+
+```bash
  choco install kubernetes-cli
  choco install minikube
  minikube config set vm-driver virtualbox
  minikube start
  minikube dashboard
  minikube docker-env
- export DOCKER_TLS_VERIFY=1
- export DOCKER_HOST=tcp://$(minikube ip):2376
- export DOCKER_CERT_PATH=/c/Users/rohit/.minikube
- export MINIKUBE_ACTIVE_DOCKERD=minikube
  sudo apt-get install docker-ce
  sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)"  -o /usr/local/bin/docker-compose
  sudo mv /usr/local/bin/docker-compose /usr/bin/docker-compose
@@ -114,3 +114,28 @@ CPU - $(percent(cpu.inuse)) | RAM - $(size(mem.user)) | Net  ↓ $(speed(net.dow
  docker info
  docker-compose version
  ```
+
+*Add in .bashrc*
+
+> Replace rohit with your username
+
+ ```bashrc
+ export DOCKER_TLS_VERIFY=1
+ export DOCKER_HOST=tcp://$(minikube ip):2376
+ export DOCKER_CERT_PATH=/c/Users/rohit/.minikube
+ export MINIKUBE_ACTIVE_DOCKERD=minikube
+ ```
+
+ *Start Script*
+
+ ```bat
+@ECHO OFF
+minikube start --driver=virtualbox
+ ```
+
+ *Stop Script*
+
+```bat
+@ECHO OFF
+minikube stop
+```
