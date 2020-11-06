@@ -129,6 +129,13 @@ alias minikube='minikube.exe'
  docker-compose version
  ```
 
+ *Refresh Env*
+
+ ```bash
+source ~/.bashrc
+source ~/.zshrc
+```
+
  *Start Script*
 
  ```bat
@@ -142,3 +149,8 @@ minikube start --driver=virtualbox
 @ECHO OFF
 minikube stop
 ```
+
+ *Final Result*
+
+![](minikube.png)
+
