@@ -18,7 +18,7 @@ organizations:
   url: "https://www.notsosecure.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: An Infosec professional who loves web technologies.
+bio: A CyberSecurity professional who loves technology
 
 interests:
 - Web,Mobile and API Security
