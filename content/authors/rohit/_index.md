@@ -25,8 +25,13 @@ interests:
 - Red Team Assessments
 - DevOps and DevSecOps
 - Security Automation
-- Cloud Infrastruture
+- Cloud Infrastruture Security
+  - AWS
+- Cloud Native Tools
+  - Kubernetes
 - Security Architecture Review
+- Threat Modeling
+- Triathlon
 
 education:
   courses:
@@ -67,7 +72,8 @@ social:
 # - Visitors
 ---
 
-Rohit Salecha is a technology enthusiast with over 10+ years of experience in IT and Cyber Security industry. He loves to develop web applications/API , learn new programming languages,reverse engineer binaries and tinker around with his computers in cloud.More inclined towards defense than offense in the Information Security domain.
+Rohit Salecha is a technology enthusiast with over 10+ years of experience in IT and Cyber Security industry. He loves to develop web applications/API , learn new programming languages,reverse engineer binaries and tinker around with his computers in cloud.
+More inclined towards defense than offense in the Information Security domain.
 
 In his free time he is either reading [books](https://www.goodreads.com/review/list/76845050-rohit-salecha?shelf=read) or watching [movies](https://www.imdb.com/list/ls040083918/).
 He is a fitness freak who loves to jog,swim and cycle on different terrains.

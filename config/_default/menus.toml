@@ -37,9 +37,14 @@
  weight = 30
 
 [[main]]
+  name = "Speaking"
+  url = "#talks"
+  weight = 40
+
+[[main]]
+  weight = 50
   name = "Notes"
   url = "/notes"
-  weight = 40
 
 [[main]]
   name = "Tech"
@@ -52,11 +57,6 @@
   url = "/notes/pentest/"
   weight = 42
   parent = "Notes"
-
-[[main]]
-  name = "Speaking"
-  url = "#talks"
-  weight = 50
 
 [[main]]
   name = "Contact"
