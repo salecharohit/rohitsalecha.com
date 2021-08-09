@@ -37,14 +37,14 @@ site_type = "Person"
 
 # Local business type (optional)
 # If you entered "LocalBusiness" above, choose the type of business from https://schema.org/LocalBusiness#subtypes
-local_business_type = "Pentester"
+local_business_type = "DevOps"
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = ""
+org_name = "Rohit Salecha"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Specialise in Web App, Mobile and API Security. Security Automation . Inclined more toward defense over offense. Email : i{at}rohitsalecha{dot}com"
+description = "Specialise in Web App, Mobile and API Security. Big fan of Security Automation and DevOps.Inclined more toward defense over offense. Email : i{at}rohitsalecha{dot}com"
 
 # Display a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -109,8 +109,9 @@ phone = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/salecharohit"},
+  {icon = "twitter", icon_pack = "fab", name = "Follow Me", link = "https://twitter.com/salecharohit"},
   {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:live:rohit.salecha"},
+  {icon = "linkedin", icon_pack = "fab", name = "Let's Connect", link = "https://www.linkedin.com/in/rohitsalecha/"},
   #{icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
