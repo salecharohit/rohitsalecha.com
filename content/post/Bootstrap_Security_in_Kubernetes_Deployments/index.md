@@ -9,7 +9,7 @@ tags: [devops,kubernetes,security]
 categories: [Security]
 date: 2020-08-07T15:46:03+05:30
 featured: true
-draft: false
+draft: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
