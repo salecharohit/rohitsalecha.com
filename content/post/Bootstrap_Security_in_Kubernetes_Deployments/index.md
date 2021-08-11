@@ -307,8 +307,8 @@ Lets view this in practice by deploying our SpringBoot app
 ```bash
 kubectl get pods -n boot
 kubectl exec -it springbootmaven-7d7c5c8597-mndv9 -n boot -- /bin/sh
-cat /var/run/secrets/kubernetes.io/serviceaccount/token
-curl -k -H "Authorization:Bearer {token}" https://kubernetes.docker.internal:6443/version
+TOKEN=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
+curl -k -H "Authorization:Bearer $TOKEN" https://kubernetes.docker.internal:6443/version
 ```
 
 ![Kubernetes Service Account Token Default](img/7.png)
@@ -722,7 +722,7 @@ touch test.txt
 
 We've learnt what are the different controls we can embed in our containerised application and also looked at how to enable run-time protection mechanisms that can atleast make things difficult for an external attacker to gain foothold into our containerised systems.
 
-The [kubernetes-rofs.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/blob/main/kubernetes-rofs.yaml) can serve as a good template for developers to containerse their applications with default security features enabled while deploying in a Kubernetes environment.
+The [kubernetes-rofs.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/blob/main/kubernetes-rofs.yaml) can serve as a good template for developers to containerise their applications with default security features enabled while deploying in a Kubernetes environment.
 
 Offcourse the Dockerfile needs to be created for the specific applications but for that purpose I've collected a few of them here 
 - https://github.com/salecharohit/dockerfilesrepo
