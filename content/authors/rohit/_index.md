@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Cyber Security Consultant
+role: Security Architect
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: "https://www.notsosecure.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: A CyberSecurity professional who loves technology
+bio: A Security Architect who is passionate about making the world more secure, one bit at a time.
 
 interests:
 - Web,Mobile and API Security
