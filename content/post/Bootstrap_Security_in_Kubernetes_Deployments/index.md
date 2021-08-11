@@ -50,7 +50,7 @@ This guide will assume that you have a running cluster which is accessible throu
 
 Securing the kubernetes workloads can effectively be compartimentalised into 'Buildtime' and 'Runtime' security. In order to run with the examples we'll make use of this simple Spring Boot HelloWorld application and deploy it in Kubernetes with buildtime and runtime security applied.
 
-https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment
+[Code on Github](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment)
 
 So before starting off let's clone this repository,build the docker container and run the application locally
 
