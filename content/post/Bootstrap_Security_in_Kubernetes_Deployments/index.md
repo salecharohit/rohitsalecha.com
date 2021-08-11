@@ -90,7 +90,7 @@ apk add curl
 
 So let's try to [remove the `apk`](https://stackoverflow.com/a/54428406/1679541) binary and rebuild or docker image.
 
-We'll make use of the [Dockerfile.asr](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/Dockerfile.asr) at this time to rebuild our docker container which is shared below
+We'll make use of the [Dockerfile.asr](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/blob/main/Dockerfile.asr) at this time to rebuild our docker container which is shared below
 
 ```Dockerfile
 FROM maven:3.8.1-openjdk-17-slim AS MAVEN_BUILD
@@ -163,7 +163,7 @@ ping rohitsalecha.com
 
 Hence, it is important that we run our container not as root but as a user with limited privileges.
 
-[Dockerfile.lpr](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/Dockerfile.lpr) shows addition of a few more commands that add a user and group called "boot" and assign it a working directory (Which is its home directory)
+[Dockerfile.lpr](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/blob/main/Dockerfile.lpr) shows addition of a few more commands that add a user and group called "boot" and assign it a working directory (Which is its home directory)
 I've also assigned numerical values to the user and group which we'll discuss in detail in the [Pod Security Context Section]({{< relref "post/Bootstrap_Security_in_Kubernetes_Deployments/index.md#pod-security-contexts" >}})
 
 ```Dockerfile
@@ -233,7 +233,7 @@ docker run -d -p 8080:8080 --name springboot salecharohit/springbootmaven
 curl http://localhost:8080
 ```
 
-Now that our docker image is ready let's apply our [kubernetes-basic.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/kubernetes-basic.yaml) file that will deploy this application and also a service that will help us connect to it.
+Now that our docker image is ready let's apply our [kubernetes-basic.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/blob/main/kubernetes-basic.yaml) file that will deploy this application and also a service that will help us connect to it.
 
 ```yaml
 # Create Namespace
@@ -328,7 +328,7 @@ This situation is farily simple to solve by simply adding two lines to the kuber
       automountServiceAccountToken: false
 ```
 
-The complete deployment file [kubernetes-nosa.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/kubernetes-nosa.yaml) is as follows
+The complete deployment file [kubernetes-nosa.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/blob/main/kubernetes-nosa.yaml) is as follows
 
 ```yaml
 apiVersion: apps/v1
@@ -397,7 +397,7 @@ The below Kubernetes manifest
 
 This shall allow to only read pods in the "boot" namespace.
 
-The complete deployment file [kubernetes-withsa.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/kubernetes-withsa.yaml) is as follows
+The complete deployment file [kubernetes-withsa.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/blob/main/kubernetes-withsa.yaml) is as follows
 
 ```yaml
 # Create Namespace
@@ -492,7 +492,7 @@ kubectl run -it testpod --image=radial/busyboxplus:curl --restart=Never --rm -- 
 Though we've configured our base docker image to run with non-root privileges however, there are still few more configurations that need to be added as security best practices. These are
 1. Restricting the capabilities of the container and the pod
 2. Disabling Privilege Escalation
-3. Configuring the container to run with a specific uid/gid created earlier in our [Dockerfile.lpr](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/Dockerfile.lpr)
+3. Configuring the container to run with a specific uid/gid created earlier in our [Dockerfile.lpr](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/blob/main/Dockerfile.lpr)
 
 In the kubernetes manifest files there are two types of "SecurityContexts" defined.
 
@@ -523,7 +523,7 @@ In the kubernetes manifest files there are two types of "SecurityContexts" defin
       ---
 ```
 
-The complete deployment file [kubernetes-ps.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/kubernetes-ps.yaml) embedded with the PodSecurity contexts is below
+The complete deployment file [kubernetes-ps.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/blob/main/kubernetes-ps.yaml) embedded with the PodSecurity contexts is below
 
 ```yaml
 # Create Namespace
@@ -632,7 +632,7 @@ The above requirements can be configured as shown below.
   ---
 ```
 
-The complete deployment file [kubernetes-rofs.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/kubernetes-rofs.yaml) is as follows
+The complete deployment file [kubernetes-rofs.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/blob/main/kubernetes-rofs.yaml) is as follows
 
 ```yaml
 # Create Namespace
@@ -722,7 +722,7 @@ touch test.txt
 
 We've learnt what are the different controls we can embed in our containerised application and also looked at how to enable run-time protection mechanisms that can atleast make things difficult for an external attacker to gain foothold into our containerised systems.
 
-The [kubernetes-rofs.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/kubernetes-rofs.yaml) can serve as a good template for developers to containerse their applications with default security features enabled while deploying in a Kubernetes environment.
+The [kubernetes-rofs.yaml](https://github.com/salecharohit/bootstrapsecurityinkubernetesdeployment/blob/main/kubernetes-rofs.yaml) can serve as a good template for developers to containerse their applications with default security features enabled while deploying in a Kubernetes environment.
 
 Offcourse the Dockerfile needs to be created for the specific applications but for that purpose I've collected a few of them here 
 - https://github.com/salecharohit/dockerfilesrepo
