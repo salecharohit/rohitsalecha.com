@@ -714,7 +714,7 @@ kubectl run -it testpod --image=radial/busyboxplus:curl --restart=Never --rm -- 
 kubectl get pods -n boot
 kubectl exec -it springbootmaven-56c64ff85-mqz2z -n boot -- /bin/sh
 pwd
-touch test.txt
+touch test
 ```
 ![Read-Only File-System](img/10.png)
 
