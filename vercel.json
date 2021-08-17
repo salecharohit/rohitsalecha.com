@@ -1,0 +1,12 @@
+{
+    "build": {
+      "env": {
+        "HUGO_VERSION": "0.82.0"
+      }
+    },
+    "rewrites": [
+      { "source": "/test", "destination": "https://testsite.rohitsalecha.com" },
+      { "source": "/test/(.*)", "destination": "https://testsite.rohitsalecha.com/$1" }
+    ],
+    "trailingSlash": true
+  }
