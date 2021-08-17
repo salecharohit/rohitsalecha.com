@@ -1,1 +1,1 @@
-# My Personal Blog [https://rohitsalecha.com](https://rohitsalecha.com
+# My Personal Blog [https://rohitsalecha.com]
