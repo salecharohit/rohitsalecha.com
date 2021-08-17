@@ -26,7 +26,7 @@
     Content-Type = "application/rss+xml"
 
 [[redirects]]
-  from = "/test"
+  from = "/test/*"
   to = "https://testsiterohit.netlify.app/"
   status = 200
   force = true # COMMENT: ensure that we always redirect
