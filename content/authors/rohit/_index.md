@@ -22,12 +22,13 @@ bio: A Security Architect who is passionate about making the world more secure, 
 
 interests:
 - Web,Mobile and API Security
-- Red Team Assessments
-- DevOps and DevSecOps
+- DevOps
+- DevSecOps
+- GitOps
 - Security Automation
-- Cloud Infrastruture Security
-  - AWS
-- Cloud Native Tools
+- Cloud Infrastruture
+  - AWS/GCP
+- Cloud Native
   - Kubernetes
 - Security Architecture Review
 - Threat Modeling
@@ -38,6 +39,28 @@ education:
   - course: B.E. Electronics Engineering
     institution: Vidyalankar Institute of Technology
     year: 2009
+
+certification:
+  certificates:
+  - certificate: AWS Certified DevOps Engineer – Professional
+    institution: Amazon Web Services Training and Certification
+    validity: June 2024
+    link: https://www.credly.com/badges/e7097051-8c0e-45c5-88a6-aa0c41a62ff8/public_url
+
+  - certificate: AWS Certified Developer – Associate
+    institution: Amazon Web Services Training and Certification
+    validity: June 2024
+    link: https://www.credly.com/badges/d4e0f00c-360c-458a-acca-4322e6ab8e3d/public_url
+
+  - certificate: Certified Kubernetes Administrator
+    institution: The Linux Foundation
+    validity: December 2023
+    link: https://www.credly.com/badges/76b499f9-cb89-4f4f-88ab-c30a88aa8e49/public_url
+
+  - certificate: Certified Information Systems Security Professional (CISSP)
+    institution: (ISC)²
+    validity: Expired in August 2019
+    link: https://www.credly.com/badges/dd2defaa-ea73-4639-9c31-d5990f6f047d/public_url
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons

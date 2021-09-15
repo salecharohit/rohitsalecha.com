@@ -7,7 +7,7 @@ summary: "Learn how to practically boostrap security controls into your kubernet
 authors: [rohit]
 tags: [devops,kubernetes,security]
 categories: [Security]
-date: 2020-08-07T15:46:03+05:30
+date: 2021-08-07T15:46:03+05:30
 featured: true
 draft: false
 

@@ -87,6 +87,24 @@
       </div>
       {{ end }}
 
+      {{ with $person.certification }}
+      <div class="col-md-6">
+        <h3>{{ i18n "certification" | markdownify }}</h3>
+        <ul class="ul-edu fa-ul">
+          {{ range .certificates }}
+          <li>
+            <i class="fa-li fas fa-certificate"></i>
+            <div class="description">
+              <p class="course"><a href="{{ .link }}" target="_blank">{{ .certificate }}</a></p>
+              <p class="institution">{{ .validity }}</p>
+              <p class="institution">{{ .institution }}</p>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
       {{ with $person.education }}
       <div class="col-md-7">
         <h3>{{ i18n "education" | markdownify }}</h3>
