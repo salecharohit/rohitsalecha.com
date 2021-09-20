@@ -106,7 +106,7 @@ A tool that can cater to both their requirements.
 - With this technique Technical Architects would keep their Architecture Diagrams and other artefacts "Live" and continue to update in the same tool. Hence TA's are now using this tool for their own purpose and not necessarily for security.
 - Security Architects can keep track of changes and accordingly provide their security requirements by filtering out the noise.
 
-> Basically both teams are now working on the same platform,performing their own jobs while at the sametime collaborate with each other ! Hence, we are solving two problems with a single solution.
+> Basically both teams are now working on the same platform and performing their own jobs while at the sametime collaborating with each other ! Hence, we are solving two problems with a single solution.
 
 
 
