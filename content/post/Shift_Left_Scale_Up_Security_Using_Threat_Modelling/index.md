@@ -27,6 +27,9 @@ image:
 # projects: []
 ---
 
+![](threat_modelling.png)
+[Image Credit: Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling)
+
 Security strategies today for most organisations is to 
 - Shift Security left more towards the developers
 - Engage developers/architects in security processes so as to scale up
