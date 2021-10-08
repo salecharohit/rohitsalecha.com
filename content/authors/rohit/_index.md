@@ -18,7 +18,7 @@ organizations:
   url: "https://www.claranetcybersecurity.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: A Security Architect who is passionate about making the world more secure, one bit at a time. Also head over heels on DevOps technology,tools and products.
+bio: A Security Architect who is passionate about making the world more secure, one bit at a time. Also head over heels on DevOps technology, tools and products. He specializes in taking the "Shift Left" approach implementing the Secure Software Development Lifecycle (SSDLC) to develop solutions that are "secure by default"
 
 interests:
 - Web,Mobile and API Security
@@ -95,9 +95,7 @@ social:
 # - Visitors
 ---
 
-Rohit Salecha is a technology enthusiast with over 11+ years of experience in IT and Cyber Security industry. He loves to find security flaws in the web applications/api’s, automate boring tasks, tinker around with new tech and help design secure by default systems.
-
-More inclined towards defense than offense in the Information Security domain.
+A Security Architect who is passionate about making the world more secure, one bit at a time. Also head over heels on DevOps technology, tools and products. He specializes in taking the "Shift Left" approach implementing the Secure Software Development Lifecycle (SSDLC) to develop solutions that are "secure by default"
 
 In his free time he is either reading [books](https://www.goodreads.com/review/list/76845050-rohit-salecha?shelf=read) or watching [movies](https://www.imdb.com/list/ls040083918/).
 He is a fitness freak who loves to jog,swim and cycle on different terrains.
