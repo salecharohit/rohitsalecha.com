@@ -14,8 +14,8 @@ role: Security Architect
 
 # Organizations/Affiliations
 organizations:
-- name: NotSoSecure
-  url: "https://www.notsosecure.com"
+- name: Claranet Cyber Security
+  url: "https://www.claranetcybersecurity.com/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: A Security Architect who is passionate about making the world more secure, one bit at a time.
