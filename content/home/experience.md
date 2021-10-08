@@ -18,12 +18,46 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Security Architect"
+  company = "Claranet Cyber Security"
+  company_url = "https://www.claranetcybersecurity.com/"
+  location = "Mumbai"
+  date_start = "2021-07-01"
+  date_end = ""
+  description = """
+
+- Working as a Security Architect for one of Claranet's premier client helping them to setup a Product Security team riding on the "Shift Left" paradigm
+- Partner with multiple application development teams within client organization, to ensure
+secure development of applications.
+- Develop a broad and deep technical understanding of applications, services and architectures
+pertaining to the client application organization.
+- Interpret results from exercises such as code review and penetration testing stakeholders and
+advise on remediation and mitigation as well as incorporate learnings into future designs.
+- Conduct architecture reviews, threat Modeling, design reviews, code review on web and mobile
+applications and web services as and when required.
+- Develop documentation, and a knowledge base to be used by developers for implementing
+secure coding practices
+- Research and maintain knowledge of changing landscape of application security, latest threats,
+and attacker tools, techniques, and procedures.
+- Provide recommendations for missing application security controls and secure design patterns.
+- Support and provide consultation to development teams in the areas of application security,
+cloud security, DevSecOps, mobile security.
+- Act as subject matter expert and provide mentorship to team members.
+- Develop and maintain strong working relationship with development teams, leadership, and
+product owners.
+- Lead the efforts towards creation and successful functioning of an application security program
+for the client organisation.
+- Lead long term initiatives of program such as automation, processes, and documentation for the client organisation.
+
+  """
+
+[[experience]]
   title = "Associate Director"
   company = "NotSoSecure"
   company_url = "https://www.notsosecure.com"
   location = "Mumbai"
   date_start = "2016-11-29"
-  date_end = ""
+  date_end = "2021-07-01"
   description = """
   
   Responsibilities include:
