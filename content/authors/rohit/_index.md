@@ -96,6 +96,7 @@ social:
 ---
 
 A Security Architect who is passionate about making the world more secure, one bit at a time. He specializes in taking the "Shift Left" approach implementing the Secure Software Development Lifecycle (SSDLC) to develop solutions that are "secure by default".
+
 Also head over heels on DevOps technology, tools and products.
 
 In his free time he is either reading [books](https://www.goodreads.com/review/list/76845050-rohit-salecha?shelf=read) or watching [movies](https://www.imdb.com/list/ls040083918/).
