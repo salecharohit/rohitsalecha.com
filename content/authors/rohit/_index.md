@@ -10,15 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Security Architect
+role: Security Engineer
 
 # Organizations/Affiliations
-organizations:
-- name: Claranet Cyber Security
-  url: "https://www.claranetcybersecurity.com/"
+# organizations:
+# - name: comming_soon
+#   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: A Security Architect who is passionate about making the world more secure, one bit at a time. Also head over heels on DevOps technology, tools and products. He specializes in taking the "Shift Left" approach implementing the Secure Software Development Lifecycle (SSDLC) to develop solutions that are "secure by default"
+bio: A Security Engineer who is passionate about making the world more secure, one bit at a time. Also head over heels over Infrastructure as Code(IaC) and believes in "everything as code" mantra. He specializes in taking the "Shift Left" approach implementing the Secure Software Development Lifecycle (SSDLC) to develop solutions that are "secure by default"
 
 interests:
 - Web,Mobile and API Security
@@ -30,6 +30,7 @@ interests:
   - AWS/GCP
 - Cloud Native
   - Kubernetes
+- Terraform
 - Security Architecture Review
 - Threat Modeling
 - Triathlon
@@ -95,9 +96,9 @@ social:
 # - Visitors
 ---
 
-A Security Architect who is passionate about making the world more secure, one bit at a time. He specializes in taking the "Shift Left" approach implementing the Secure Software Development Lifecycle (SSDLC) to develop solutions that are "secure by default".
+A Security Engineer who is passionate about making the world more secure, one bit at a time. Also head over heels over Infrastructure as Code(IaC) and believes in "everything as code" mantra. 
 
-Also head over heels on DevOps technology, tools and products.
+He specializes in taking the "Shift Left" approach implementing the Secure Software Development Lifecycle (SSDLC) to develop solutions that are "secure by default"
 
 In his free time he is either reading [books](https://www.goodreads.com/review/list/76845050-rohit-salecha?shelf=read) or watching [movies](https://www.imdb.com/list/ls040083918/).
 He is a fitness freak who loves to jog,swim and cycle on different terrains.
