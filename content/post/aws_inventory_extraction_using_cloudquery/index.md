@@ -36,9 +36,9 @@ For Ex: Below are the columns for the table storing information about your EC2 i
 
 `cq_id,cq_meta,account_id,region,arn,state_transition_reason_time,ami_launch_index,architecture,boot_mode,capacity_reservation_id,cap_reservation_preference,cap_reservation_target_capacity_reservation_id,cap_reservation_target_capacity_reservation_rg_arn,client_token,cpu_options_core_count,cpu_options_threads_per_core,ebs_optimized,ena_support,enclave_options_enabled,hibernation_options_configured,hypervisor,iam_instance_profile_arn,iam_instance_profile_id,image_id,id,instance_lifecycle,instance_type,kernel_id,key_name,launch_time,licenses,metadata_options_http_endpoint,metadata_options_http_protocol_ipv6,metadata_options_http_put_response_hop_limit,metadata_options_http_tokens,metadata_options_state,monitoring_state,outpost_arn,placement_affinity,placement_availability_zone,placement_group_name,placement_host_id,placement_host_resource_group_arn,placement_partition_number,placement_spread_domain,placement_tenancy,platform,private_dns_name,private_ip_address,public_dns_name,public_ip_address,ramdisk_id,root_device_name,root_device_type,source_dest_check,spot_instance_request_id,sriov_net_support,state_code,state_name,state_reason_code,state_reason_message,state_transition_reason,subnet_id,tags,virtualization_type,vpc_id`
 
-With the power of SQL, possibilities of utilising this data is endless.
+With the power of SQL, possibilities of utilising this data is endless as an example, if you'd like to identify which EC2 instances are still using IMDSv1 then simply fire the query as 
 
-One such use-case that I encountered is to extract all this information in CSV format per resource and this is how I did it.
+`select * from aws_ec2_instances where metadata_options_http_tokens = 'optional' ;`
 
 # Pre-Requisites
 
