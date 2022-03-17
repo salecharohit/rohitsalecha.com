@@ -32,8 +32,13 @@ image:
 I wanted to extract the AWS Inventory spread out over multiple regions and accounts. Offcourse there are many solutions and different ways to do this but in this post I'd like to share how I was able to do this using an opensource tool called as [CloudQuery](https://www.cloudquery.io/)
 
 To put in extremely simple words , CloudQuery converts your Cloud(AWS,GCP and many more) asset information into a SQL Database.
+For Ex: Below are the columns for the table storing information about your EC2 instances
 
-Information about your S3 buckets, their ACLs and all their minutest configuration all in all in a SQL database. It then becomes extremely easy to search through and also perform various operations on the data like alerting and monitoring for configuration drift changes.
+cq_id,cq_meta,account_id,region,arn,state_transition_reason_time,ami_launch_index,architecture,boot_mode,capacity_reservation_id,cap_reservation_preference,cap_reservation_target_capacity_reservation_id,cap_reservation_target_capacity_reservation_rg_arn,client_token,cpu_options_core_count,cpu_options_threads_per_core,ebs_optimized,ena_support,enclave_options_enabled,hibernation_options_configured,hypervisor,iam_instance_profile_arn,iam_instance_profile_id,image_id,id,instance_lifecycle,instance_type,kernel_id,key_name,launch_time,licenses,metadata_options_http_endpoint,metadata_options_http_protocol_ipv6,metadata_options_http_put_response_hop_limit,metadata_options_http_tokens,metadata_options_state,monitoring_state,outpost_arn,placement_affinity,placement_availability_zone,placement_group_name,placement_host_id,placement_host_resource_group_arn,placement_partition_number,placement_spread_domain,placement_tenancy,platform,private_dns_name,private_ip_address,public_dns_name,public_ip_address,ramdisk_id,root_device_name,root_device_type,source_dest_check,spot_instance_request_id,sriov_net_support,state_code,state_name,state_reason_code,state_reason_message,state_transition_reason,subnet_id,tags,virtualization_type,vpc_id
+
+With the power of SQL, possibilities of utilising this data is endless.
+
+One such use-case that I encountered is to extract all this information in CSV format per resource and this is how I did it.
 
 # Pre-Requisites
 
