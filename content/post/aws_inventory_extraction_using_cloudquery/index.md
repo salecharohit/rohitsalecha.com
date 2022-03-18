@@ -298,7 +298,7 @@ tables in CSV format. The tables aggregate resources from all accounts.
 
 For Ex: if you have 5 S3 buckets , in 3 different accounts , CloudQuery will aggregate all the 5 S3 buckets as 5 rows and a column to desginate the associated account IDs.
 
-End Result would be something like below.
+End Result would be something like below in the directory from where you executed the docker command to spin up a PostgreSQL database.
 
 ![AWS Inventory in CSV](img/1.png) 
 
