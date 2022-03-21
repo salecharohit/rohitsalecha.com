@@ -10,13 +10,14 @@ subtitle = ""
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+# date_format = "Jan 2006"
 
 # Experiences.
 #   Add/remove as many `[[experience]]` blocks below as you like.
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
 [[experience]]
   title = "Engineering Manager"
   company = "Disney+Hotstar"
@@ -37,7 +38,7 @@ date_format = "Jan 2006"
   company_url = "https://www.claranetcybersecurity.com/"
   location = "Mumbai"
   date_start = "2021-07-01"
-  date_end = "2022-03-00"
+  date_end = "2022-03-09"
   description = """
 
 - Working as a Security Architect for one of Claranet's premier client helping them to setup a Product Security team riding on the "Shift Left" paradigm

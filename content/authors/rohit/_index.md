@@ -12,7 +12,7 @@ superuser: true
 # Role/position
 role: Security Engineer
 
-Organizations/Affiliations
+#Organizations/Affiliations:
 organizations:
 - name: "Disney+Hotstar"
   url: "https://tech.hotstar.com/"
