@@ -12,10 +12,10 @@ superuser: true
 # Role/position
 role: Security Engineer
 
-# Organizations/Affiliations
-# organizations:
-# - name: comming_soon
-#   url: ""
+Organizations/Affiliations
+organizations:
+- name: "Disney+Hotstar"
+  url: "https://tech.hotstar.com/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: A Security Engineer who is passionate about making the world more secure, one bit at a time. Also head over heels over Infrastructure as Code(IaC) and believes in "everything as code" mantra. He specializes in taking the "Shift Left" approach implementing the Secure Software Development Lifecycle (SSDLC) to develop solutions that are "secure by default"

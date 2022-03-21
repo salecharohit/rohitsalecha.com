@@ -18,12 +18,26 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Engineering Manager"
+  company = "Disney+Hotstar"
+  company_url = "https://tech.hotstar.com/"
+  location = "Mumbai"
+  date_start = "2021-03-21"
+  date_end = ""
+  description = """
+
+- Helping Hotstar acheiving Security assurance in Application Security and Cloud Infrastructure Security
+- Embedding Security in a massive scaling operations and fast-paced environment
+
+  """
+
+[[experience]]
   title = "Security Architect"
   company = "Claranet Cyber Security"
   company_url = "https://www.claranetcybersecurity.com/"
   location = "Mumbai"
   date_start = "2021-07-01"
-  date_end = ""
+  date_end = "2022-03-00"
   description = """
 
 - Working as a Security Architect for one of Claranet's premier client helping them to setup a Product Security team riding on the "Shift Left" paradigm
