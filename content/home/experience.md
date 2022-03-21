@@ -20,10 +20,10 @@ subtitle = ""
 
 [[experience]]
   title = "Engineering Manager"
-  company = "Disney+Hotstar"
+  company = "Disney+ Hotstar"
   company_url = "https://tech.hotstar.com/"
   location = "Mumbai"
-  date_start = "2021-03-21"
+  date_start = "2022-03-21"
   date_end = ""
   description = """
 
