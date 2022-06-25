@@ -18,11 +18,12 @@ organizations:
   url: "https://tech.hotstar.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: A Security Engineer who is passionate about making the world more secure, one bit at a time. Also head over heels over Infrastructure as Code(IaC) and believes in "everything as code" mantra. He specializes in taking the "Shift Left" approach implementing the Secure Software Development Lifecycle (SSDLC) to develop solutions that are "secure by default"
+bio: Rohit Salecha is a technology geek who loves to explore anything that runs and understands binary. As a security engineer he is passionate about learning the length,breadth and depth of technology. Being more on the defensive side he has evangelised secure software development at various organizations for more than a decade. He is ridiculously driven by “everything as code” mantra and strongly believes that security team must strive towards making themselves irrelevant.
 
 interests:
 - Web,Mobile and API Security
 - DevOps
+- Infrastructure As Code (IaC)
 - DevSecOps
 - GitOps
 - Security Automation
@@ -96,14 +97,16 @@ social:
 # - Visitors
 ---
 
-A Security Engineer who is passionate about making the world more secure, one bit at a time. Also head over heels over Infrastructure as Code(IaC) and believes in "everything as code" mantra. 
+Rohit Salecha is a technology geek who loves to explore anything that runs and understands binary. As a security engineer he is passionate about learning the length,breadth and depth of technology. 
 
-He specializes in taking the "Shift Left" approach implementing the Secure Software Development Lifecycle (SSDLC) to develop solutions that are "secure by default"
+Being more on the defensive side he has evangelised secure software development at various organizations for more than a decade. 
+
+He is ridiculously driven by “everything as code” mantra and strongly believes that security team must strive towards making themselves irrelevant.
 
 In his free time he is either reading [books](https://www.goodreads.com/review/list/76845050-rohit-salecha?shelf=read) or watching [movies](https://www.imdb.com/list/ls040083918/).
 He is a fitness freak who loves to jog,swim and cycle on different terrains.
 
-A devout [Jain](https://en.wikipedia.org/wiki/Jainism)
+A devout [Jain](https://en.wikipedia.org/wiki/Jainism) and a proud 🇮🇳
 
 ---
 
