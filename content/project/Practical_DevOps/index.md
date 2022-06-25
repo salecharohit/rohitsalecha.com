@@ -2,10 +2,11 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Practical DevOps - The Lab"
-summary: "Practical DevOps is a project where rohit explains how to setup a DevOps environment using a custom Lab with Jenkins,Docker,Vagrant,Ansible,Elasticsearch,Logstash,Kibana,Filebeat,AngularJS,Spring Boot and MySQL"
+summary: "Practical DevOps is a project where rohit explains how to setup a DevOps environment using a custom Lab with Jenkins,Docker,Vagrant,Ansible,
+Elasticsearch,Logstash,Kibana,Filebeat"
 authors: [rohit]
-tags: [devops]
-categories: []
+tags: [devops,Jenkins,Docker,Vagrant,Ansible,Elasticsearch,Logstash,Filebeat,Kibana]
+categories: [Technology]
 date: 2020-02-24T18:35:59+05:30
 toc: true
 
