@@ -19,7 +19,7 @@ subtitle = ""
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Engineering Manager"
+  title = "Security Engineering Manager"
   company = "Disney+ Hotstar"
   company_url = "https://tech.hotstar.com/"
   location = "Mumbai"
@@ -27,8 +27,14 @@ subtitle = ""
   date_end = ""
   description = """
 
-- Helping Hotstar acheiving Security assurance in Application Security and Cloud Infrastructure Security
-- Embedding Security in a massive scaling operations and fast-paced environment
+- Manage a Team of 5+ super heroes; providing expert-level technical peer review for application security and cloud security issues, coaching and guidance on methodologies, tactics, processes and findings
+- Create and Coordinate quarterly planning process (OKRs – Objectives and Key Results), manage security debt/backlog, assignment and reprioritisation of resources.
+- Driving security engineering engagements with a high degree of Engineering satisfaction and through org-wide communication strategy.
+- Driving initiatives and providing insightful data-driven strategic recommendations to leadership team.
+- Partnering closely with other functions including Product and Engineering, Communications, PR, Marketing, Revenue, HR, Talent for anything related to security.
+- Provide innovative solutions by working in an ambiguous environment thereby contributing to overall product design.
+- Work as the incident manager co-ordinating various stakeholders and provide timely mitigation.
+- Revolving my entire job/planning/execution around two simple mantras "Security by Default" and "All things security as code"
 
   """
 

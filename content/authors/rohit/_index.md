@@ -35,6 +35,8 @@ interests:
 - Security Architecture Review
 - Threat Modeling
 - Triathlon
+- OKRs Planning
+- Team Leadership/Management
 
 education:
   courses:
