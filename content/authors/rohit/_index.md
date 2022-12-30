@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Security Engineer
+role: Security Engineer Manager
 
 #Organizations/Affiliations:
 organizations:
