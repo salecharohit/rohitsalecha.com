@@ -39,7 +39,7 @@ Link to buy the book and how to get a 20% discount coupon code is shared towards
 
 ## Architecture
 
-![AWS EKS Architecture](img/image5.png "image_tooltip")
+![AWS EKS Architecture](img/image5.png "AWS EKS Architecture")
 
 The above diagram shows a high-level architecture of the base infrastructure that we are doing to deploy.Other than Route53, rest everything will be set up using Terraform in this blog. A brief description follows
 
@@ -220,7 +220,7 @@ cmd> aws route53 delete-hosted-zone --id Z0649256M3CSJUPI94TE
 
 ## Multi-Environment Configuration
 
-If you’d like to configure multiple environments like dev,staging etc … then this script allows you to modify the same in **_infra/variables.tf _** as shown below.
+If you’d like to configure multiple environments like dev,staging etc … then this script allows you to modify the same in **infra/variables.tf** as shown below.
 
 ```
 File: infra/variables.tf
