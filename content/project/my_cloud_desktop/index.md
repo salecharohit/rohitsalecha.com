@@ -59,7 +59,7 @@ Some important warnings before you start using the code
 - Running the scripts in this blog will charge you money as we are downloading quite a lot of content to the cloud machine and the bare minimum 4 GB RAM machine is needed which doesn't fall into free tier.
 - Opening up of port 80 is necessary for the entire internet as it's needed for LetsEncrypt validation.
   [https://letsencrypt.org/docs/allow-port-80/](https://letsencrypt.org/docs/allow-port-80/)
-- Currently exactly 5 Security groups have been attached to the EC2 instance which is the maximum. If you need to attach more either edit one of them or request AWS support for more.
+- Port 53 is also open but no service is currently configured to listen on it. You can start your own DNS server for SSRF pingbacks.  
 - Any abuse of the code and the service provided is solely the responsibility of the user.
 
 ## Duck DNS
