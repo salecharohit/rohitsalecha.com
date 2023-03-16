@@ -140,7 +140,7 @@ After entering the password we can start using VSCode as shown below.
 
 Accessing Terminal from VSCode ex : Metasploit
 
-![Accessing CLI from browser]()(img/6.png)
+![Accessing CLI from browser](img/6.png)
 
 ## Accessing Server through SSH
 
