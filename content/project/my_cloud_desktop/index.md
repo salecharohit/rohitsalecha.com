@@ -138,6 +138,10 @@ After entering the password we can start using VSCode as shown below.
 
 ![Accessing VSCode](img/3.png)
 
+Accessing Terminal from VSCode ex : Metasploit
+
+![Accessing CLI from browser]()(img/6.png)
+
 ## Accessing Server through SSH
 
 The code generates a private SSH key called `ubuntu_key.pem` in the keypair.tf file and stores it in your local system. The .gitignore file ignores all *.pem files and hence this will not be committed to your Git history and usable only from the local machine you are operating from.
