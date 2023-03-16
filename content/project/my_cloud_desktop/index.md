@@ -97,7 +97,9 @@ Once clone is done edit the **terraform.auto.tfvars** file and configure the fol
 region                      = "ap-south-1"
 # Recommneded is t3.medium or select from here https://instances.vantage.sh/
 instance_type               = "t3.medium"
-#Whether to apply source IP restrictions for SSH Access. IP Address from where you are executing the terraform script will be used to restrict access to port 443 and 22. Check file networking.tf
+# Whether to apply source IP restrictions for SSH Access. 
+# IP Address from where you are executing the terraform script will be used to restrict access to port 443 and 22.
+# Check file networking.tf
 apply_source_ip_restriction = true
 duckdns_token               = "XXXXXXXXXXXXXXXXXXXXXXXXXX"
 duckdns_hostname            = "XXXXXXXXXXXX.duckdns.org"
