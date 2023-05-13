@@ -19,12 +19,28 @@ subtitle = ""
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Senior Security Engineering Manager"
+  company = "Zynga (Take2 Interactive)"
+  company_url = "https://www.zynga.com/"
+  location = "Mumbai"
+  date_start = "2023-05-11"
+  date_end = ""
+  description = """
+
+- Manage a Team of 5+ super heroes; providing expert-level technical peer review for application security and cloud security issues, coaching and guidance on methodologies, tactics, processes and findings
+- Create and Coordinate quarterly planning process (OKRs – Objectives and Key Results), manage security debt/backlog, assignment and reprioritisation of resources.
+- Driving security engineering engagements with a high degree of Engineering satisfaction and through org-wide communication strategy.
+- Partnering closely with other functions including Product and Engineering, Communications, PR, Marketing, Revenue, HR, Talent for anything related to security.
+
+  """
+
+[[experience]]
   title = "Security Engineering Manager"
   company = "Disney+ Hotstar"
   company_url = "https://tech.hotstar.com/"
   location = "Mumbai"
   date_start = "2022-03-21"
-  date_end = ""
+  date_end = "2023-05-10"
   description = """
 
 - Manage a Team of 5+ super heroes; providing expert-level technical peer review for application security and cloud security issues, coaching and guidance on methodologies, tactics, processes and findings

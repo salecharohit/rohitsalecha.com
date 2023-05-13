@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Security Engineer Manager
+role: Security Engineering Manager
 
 #Organizations/Affiliations:
 organizations:
-- name: "Disney+Hotstar"
-  url: "https://tech.hotstar.com/"
+- name: "Zynga"
+  url: "https://www.zynga.com/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Rohit Salecha is a technology geek who loves to explore anything that runs and understands binary. As a security engineer he is passionate about learning the length,breadth and depth of technology. Being more on the defensive side he has evangelised secure software development at various organizations for more than a decade. He is ridiculously driven by “everything as code” mantra and strongly believes that security team must strive towards making themselves irrelevant.
