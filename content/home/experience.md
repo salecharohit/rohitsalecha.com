@@ -24,7 +24,7 @@ subtitle = ""
   company_url = "https://www.zynga.com/"
   location = "Mumbai"
   date_start = "2023-05-11"
-  date_end = ""
+  date_end = "2024-03-13"
   description = """
 
 - Manage a Team of 5+ super heroes; providing expert-level technical peer review for application security and cloud security issues, coaching and guidance on methodologies, tactics, processes and findings
