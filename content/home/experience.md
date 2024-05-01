@@ -17,6 +17,7 @@ subtitle = ""
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
 [[experience]]
   title = "Senior Security Engineer"
   company = "Amazon
