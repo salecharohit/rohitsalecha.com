@@ -20,7 +20,7 @@ subtitle = ""
 
 [[experience]]
   title = "Senior Security Engineer"
-  company = "Amazon
+  company = "Amazon"
   company_url = "https://www.amazon.com/"
   location = "Mumbai"
   date_start = "2023-04-29"
