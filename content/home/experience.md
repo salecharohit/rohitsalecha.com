@@ -18,12 +18,13 @@ subtitle = ""
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
+
 [[experience]]
   title = "Senior Security Engineer"
   company = "Amazon"
   company_url = "https://www.amazon.com/"
   location = "Mumbai"
-  date_start = "2023-04-29"
+  date_start = "2024-04-29"
   date_end = ""
   description = """
 
