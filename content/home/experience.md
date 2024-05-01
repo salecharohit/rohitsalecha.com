@@ -27,14 +27,14 @@ subtitle = ""
   date_end = ""
   description = """
 
-* Creating, updating, and maintaining threat models for a wide variety of software projects
-* Manual and Automated Secure Code Review, primarily in Java, Python and Javascript
-* Development of security automation tools
-* Adversarial security analysis using cutting-edge tools to augment manual effort
-* Security training and outreach for internal development teams
-* Security architecture and design guidance
-* Independently solve security problems that require novel methods or approaches
-* Influence my team’s and partners’ process, priorities, and choices to improve outcomes
+- Creating, updating, and maintaining threat models for a wide variety of software projects
+- Manual and Automated Secure Code Review, primarily in Java, Python and Javascript
+- Development of security automation tools
+- Adversarial security analysis using cutting-edge tools to augment manual effort
+- Security training and outreach for internal development teams
+- Security architecture and design guidance
+- Independently solve security problems that require novel methods or approaches
+- Influence my team’s and partners’ process, priorities, and choices to improve outcomes
 
   """
 
