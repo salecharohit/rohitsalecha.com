@@ -5,7 +5,7 @@
       }
     },
     "rewrites": [
-      { "source": "/:test*", "has" : [{"type":"host","value":"testsite.rohitsalecha.com"}] , "destination": "/testsite/:test*" }
+      { "source": "/test", "destination": "https://testsite.rohitsalecha.com" }
     ],
     "trailingSlash": true
   }
