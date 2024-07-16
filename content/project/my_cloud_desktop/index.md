@@ -46,8 +46,7 @@ Hence, out of pure laziness I decided to write a `terraform` + `ansible` script 
 
 * An AWS account with credentials configured in CLI
     * [https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) 
-* DuckDNS Account and Domain - [https://www.duckdns.org/](https://www.duckdns.org/)
-    * Please read through the Terms and Conditions before using this service https://www.duckdns.org/tac.jsp 
+* A domain or a sub-domain.
 * Terraform binary installed
     * [https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
     * Minimum version 1.4
@@ -62,21 +61,13 @@ Some important warnings before you start using the code
 - Port 53 is also open but no service is currently configured to listen on it. You can start your own DNS server for SSRF pingbacks.  
 - Any abuse of the code and the service provided is solely the responsibility of the user.
 
-## Duck DNS
+## DNS
 
-Duck DNS is a free service where you can create a sub-domain of your choice <your-domain>.duckdns.org and they  have a simple curl command that allows you to update the DNS A record with the IP Address of the EC2 machine as shown below.
+- Configure your AWS profile in CLI and fire the below command to create a hosted Zone in Route53
 
-```
-https://www.duckdns.org/update?domains={YOURVALUE}&token={YOURVALUE}[&ip={YOURVALUE}][&ipv6={YOURVALUE}][&verbose=true][&clear=true]
-```
+`aws route53 create-hosted-zone --name ide.domain.com --caller-reference $(date +%s)`
 
-I've implemented this as a curl command in my terraform code which automatically reads the IP from the EC2 machine and updates the DNS record.
-
-In order to use this, you'll first need to sign up, create a sub-domain of your choice and save the token provided as shown below.
-
-![Duck DNS](img/1.png)
-
-> Any abuse of the code and the service provided is solely the responsibility of the user.
+- Output will contain a set of four NameServers , you need to update these NS in your DNS config (ZoneFile) of your DNS provider. Wait for about 15 minutes for DNS propagation.
 
 ## Github Clone
 
@@ -94,17 +85,14 @@ Once clone is done edit the **terraform.auto.tfvars** file and configure the fol
 
 ```yaml
 # Region of deployment of EC2, its recommended to deploy closest possible to avoid latency
-region                      = "ap-south-1"
+region = "ap-south-1"
 # Recommneded is t3.medium or select from here https://instances.vantage.sh/
-instance_type               = "t3.medium"
-# Whether to apply source IP restrictions for SSH Access. 
-# IP Address from where you are executing the terraform script will be used to restrict access to port 443 and 22.
-# Check file networking.tf
-apply_source_ip_restriction = true
-duckdns_token               = "XXXXXXXXXXXXXXXXXXXXXXXXXX"
-duckdns_hostname            = "XXXXXXXXXXXX.duckdns.org"
-email                       = "XXXXXX@XXXXXX.com"
-vscode_password             = "XXXXXXXXXXXXXXXXXXXXXX"
+instance_type = "t3.medium"
+#Whether to apply source IP restrictions for SSH Access. IP Address from where you are executing the terraform script will be used to restrict #SSH Access. Check file networking.tf L30
+apply_source_ip_restriction = false
+hostname                    = "ide.domain.com"
+vscode_password             = "vscodeX@123"
+key_name                    = "ubuntu"
 ```
 
 > NOTE : The **terraform.auto.tfvars** is part of your .gitignore hence any changes made in this file will not be comitted in your remote repository and will only remain on your machine.
@@ -121,7 +109,7 @@ cmd> terraform validate
 cmd> terraform apply --auto-approve
  
 XXXXXXXXXXXXXXX------SNIPPED-------XXXXXXXXXXXXXXXXXXXXX
-Apply complete! Resources: 43 added, 0 changed, 0 destroyed.
+Apply complete! Resources: 41 added, 0 changed, 0 destroyed.
 
 Outputs:
 
@@ -158,7 +146,7 @@ Or you could also save it in an ssh config as which is something that you no lon
 
 ```config
 Host cloud-desktop
-HostName <your-domain>.duckdns.org
+HostName ide.domain.com
 Port 22
 User ubuntu
 IdentitiesOnly yes
@@ -170,7 +158,7 @@ IdentityFile <path-to-ubuntu-key>/ubuntu_key.pem
 In case you wish to access any GUI service within the server that's running on a port like 8080, but you donot wish to open it up on the internet then simply execute the following commands.
 
 ```bash
-ssh -i ubuntu_key.pem ubuntu@<your-duckdns-domain> -L 8081:localhost:8080
+ssh -i ubuntu_key.pem ubuntu@ide.domain.com -L 8081:localhost:8080
 curl http://localhost:8081
 ```
 
