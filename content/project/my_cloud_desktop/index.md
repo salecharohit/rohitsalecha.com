@@ -172,4 +172,3 @@ To destroy the app simply fire the below command
 cmd> export AWS_PROFILE=<your-profile> 
 cmd> terraform destroy --auto-approve 
 ```
-
