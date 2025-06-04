@@ -6,9 +6,7 @@
     },
     "rewrites": [
       { "source": "/test", "destination": "https://testsite.rohitsalecha.com" },
-      { "source": "/test/(.*)", "destination": "https://testsite.rohitsalecha.com/$1" },
-      { "source": "/s4cp", "destination": "https://s4cpaws.rohitsalecha.com" },
-      { "source": "/s4cp/(.*)", "destination": "https://s4cpaws.rohitsalecha.com/$1" }      
+      { "source": "/test/(.*)", "destination": "https://testsite.rohitsalecha.com/$1" }
     ],
     "trailingSlash": true
   }
