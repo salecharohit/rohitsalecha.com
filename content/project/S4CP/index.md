@@ -28,7 +28,7 @@ toc: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: "https://www.rohitsalecha.com/s4cp/"
+url_code: "https://s4cpaws.rohitsalecha.com/"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -67,4 +67,4 @@ The course is tailored for individuals deeply involved in developing, deploying,
 - **Practical Implementation of Security via Github Actions**: Access a collection of practical, readily implementable GitHub Actions designed to construct security guardrails within their existing environments. These actions provide a streamlined approach to integrate security measures into the development and deployment pipeline.
 - **Security Tool Starter Kit** : Acquire a starting point for essential security tools such as Semgrep, OPA (Open Policy Agent), Kyverno, and Gitleaks. Understand how these tools function and leverage them as a foundation to build customized security solutions tailored to your team's requirements.
 
-So without much ado let's get stated here -> [https://www.rohitsalecha.com/s4cp/docs/intro](https://www.rohitsalecha.com/s4cp/docs/intro)
+So without much ado let's get stated here -> [https://s4cpaws.rohitsalecha.com/docs/intro](https://s4cpaws.rohitsalecha.com/docs/intro)
