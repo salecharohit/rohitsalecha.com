@@ -20,12 +20,29 @@ subtitle = ""
 
 
 [[experience]]
+  title = "Principal Security Engineer"
+  company = "GoDaddy"
+  company_url = "https://www.godaddy.com/"
+  location = "Remote"
+  date_start = "2025-07-07"
+  date_end = ""
+  description = """
+
+- Champion AI-focused security initiatives: Build using AI and Secure AI Systems 
+- Lead comprehensive security assessments across applications and infrastructure, identifying vulnerabilities, mentoring system owners on remediation strategies, and embedding a proactive security culture  across development teams.
+- Collaborate cross-functionally with Site Reliability Engineering (SRE), software developers, and product teams to shift security left — integrating automated tools (SAST, DAST, SCA) into the CI/CD pipeline   and scaling security controls across cloud-native environments.
+- Conduct in-depth threat modeling and architecture reviews to reduce risk exposure, align security practices with privacy and compliance requirements, and enhance resiliency across services and platforms.
+- Serve as a mentor and thought leader, training development teams and security champions, elevating security awareness and enabling a Secure Development Lifecycle (SDLC) by design.
+
+  """
+
+[[experience]]
   title = "Senior Security Engineer"
   company = "Amazon"
   company_url = "https://www.amazon.com/"
   location = "Mumbai"
   date_start = "2024-04-29"
-  date_end = ""
+  date_end = "2025-07-04"
   description = """
 
 - Creating, updating, and maintaining threat models for a wide variety of software projects
