@@ -20,7 +20,7 @@ subtitle = ""
 
 
 [[experience]]
-  title = "Principal Security Engineer"
+  title = "Principal Security Engineer - Product and Cloud"
   company = "Confidential Software and Technology Company"
   company_url = "https://www.rohitsalecha.com/"
   location = "Remote"
