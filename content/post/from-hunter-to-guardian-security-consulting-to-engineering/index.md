@@ -37,7 +37,7 @@ projects: []
 
 ## Sixteen Years In, Still Learning
 
-If you have spent more than a decade in IT, you already know that a career rarely travels in a straight line. Mine certainly did not. Over sixteen years I have worked across industries, changed roles, and repeatedly rebuilt my understanding of what good work actually looks like.
+If you have spent more than a decade in IT, you already know that a career rarely travels in a straight line. Mine certainly did not. Over sixteen years I have worked across industries, changed roles, and repeatedly rebuilt my understanding of what good work looks like.
 
 Of all those transitions, one stands out as the hardest, the most rewarding, and the most instructive: moving from **security consulting** to **security engineering**. The two look adjacent from the outside. They are not. If you are standing at that crossroads right now — or just curious about what lies on the other side — this post is the map I wish I had.
 
@@ -91,7 +91,7 @@ That gap did not frustrate me. It fascinated me. And that is the tell worth watc
 
 > **The consultant sees the crack in the wall. The engineer understands why the wall was built that way — and how to make it stronger.**
 
-Combined with the quiet fatigue that comes from years of cyclical engagements — test, report, repeat — that fascination became a compass. There was no lightning-bolt decision. Just a steady, persistent pull toward going deeper.
+Combined with the quiet fatigue that comes from years of cyclical engagements — test, report, repeat — that fascination became a compass. There was no lightning-bolt decision. Just a steady, persistent pull toward going deeper. So I went.
 
 ---
 
@@ -103,7 +103,7 @@ The first is ownership.
 
 > **As a consultant, the risk lived with the client. As an SE, the risk is yours too.**
 
-When you find an RCE as a consultant, you write it up, brief the team, and move to the next engagement. When you find one as an SE, that vulnerability is in *your* product. It is tied to your team's reputation, your company's customers, your engineering partners' trust. That weight is real, and it changes how you carry yourself — usually for the better.
+When you find an RCE as a consultant, you write it up, brief the team, and move to the next engagement. When you find one as an SE, that vulnerability is in *your* product. It is tied to your team's reputation, your company's customers, your engineering partners' trust. That weight is real, and it changes how you carry yourself.
 
 The second is collaboration. As a consultant, your engagement is scoped; you work inside a defined boundary. As an SE, you are embedded — working with product teams, infrastructure, incident response, legal, and compliance, often all at once. If you are used to operating as a sharp individual contributor, this is where the hardest adjustment happens. Your effectiveness stops being measured by what you can find alone and starts being measured by what you can move together.
 
@@ -111,7 +111,7 @@ The second is collaboration. As a consultant, your engagement is scoped; you wor
 
 ## The SE Playbook: How to Actually Succeed
 
-This is the part I wish someone had handed me as a cheat sheet. Everything below was learned from getting it right, getting it wrong, and occasionally getting it spectacularly wrong.
+Consider this the cheat sheet nobody gave me. Everything below was learned from getting it right, getting it wrong, and occasionally getting it spectacularly wrong.
 
 ### 1. Be a Sidecar, Not a Gatekeeper
 
@@ -119,17 +119,19 @@ The primary job of a Security Engineer is not just to find vulnerabilities. It i
 
 > **An SE is not a gatekeeper. Think of yourself as a sidecar — running alongside the main workload, never in front of it.**
 
-Sometimes that means building a tool to automate a tedious security check. Sometimes it means knowing exactly who a blocked developer needs to talk to, setting up a fifteen-minute call, and then getting out of the way. Once, a developer was completely stuck — blocked, frustrated, going in circles. I did not solve the problem. I just knew who could, pointed them there, and got out of the way. That was it. The relief on their face was worth more than any finding I have ever filed — and that is the point. Small gestures at the right moment compound.
+Sometimes that means building a tool to automate a tedious security check. Sometimes it is simpler than that — once, a developer was completely stuck, blocked and going in circles. I did not solve the problem. I just knew who could, pointed them there, and stepped aside. The relief on their face was worth more than any finding I have ever filed. Small gestures at the right moment compound.
 
 The rule: never be the reason something is delayed unless you have a very good reason.
 
 ### 2. Time Is the Only Currency Developers Have
 
-Before starting a security review, I ask hundreds of questions to the developers. The developer asks just one *"How long will this take?"*
+Before starting a security review, I ask hundreds of questions to the developers. The developer asks just one.
+
+*"How long will this take?"*
 
 Not "what are the risks?" Not "what should we fix first?" Just: *how long*.
 
-> **I ask hundreds of questions. They ask one. "How long will this take?".**
+> **I ask hundreds of questions. They ask one. Guess which one closes the ticket.**
 
 So give them a real answer. Providing clear, honest timelines for your reviews is one of the highest-leverage habits you can build. It lets developers plan, it builds trust, and it signals that you respect their time. A review without a deadline is a review nobody is waiting for — and therefore one nobody will prioritise.
 
@@ -143,9 +145,9 @@ Your job is not to absorb all the risk. Your job is to build partnerships, commu
 
 And sometimes, the right decision is not a fix — it is a layer. Not every risk can be closed, and holding that expectation will make you ineffective and exhausting to work with. What you can almost always do is reduce the blast radius. Add a control here, tighten a boundary there, put a monitoring alert on the thing you cannot patch. Two lines of defence around an unresolved risk is not a failure — it is engineering.
 
-A practical example: a team once wanted to ship an API that was clearly exposed and certain to attract both bad actors and bug bounty hunters the moment it went live. They were not ready to fix the underlying issue. Instead of blocking the release, I negotiated a rate-limiting control that meaningfully reduced the attack surface. The team shipped. The residual risk was documented and formally accepted by its owner. Nobody went to war.
-
 > **Flexibility is not the same as compromise.**
+
+A practical example: a team once wanted to ship an API that was clearly exposed and certain to attract both bad actors and bug bounty hunters the moment it went live. They were not ready to fix the underlying issue. Instead of blocking the release, I negotiated a rate-limiting control that meaningfully reduced the attack surface. The team shipped. The residual risk was documented and formally accepted by its owner. Nobody went to war.
 
 Knowing when to push for a fix and when to wrap a risk in compensating controls is one of the most important judgement calls in this job. Learn it early: a quick win that unblocks a team — with guardrails — is worth more than a perfect finding that never gets fixed.
 
@@ -161,7 +163,7 @@ By all means develop depth where your strengths and interests converge. But brea
 
 ### 5. Skill × Visibility = Impact
 
-I read this line somewhere on internet and it just got stuck to me.
+I came across this line on the internet once and it stuck with me ever since.
 
 > **Skill × Visibility = Impact. If your visibility is zero, your impact is zero — no matter how sharp your skills are.**
 
@@ -205,7 +207,7 @@ People often frame a career change as a bet: you wager on the new path and hope 
 
 There was no dramatic moment where I *knew* this was the right call. Looking back, it was simply a natural progression. Curiosity pointed the direction. Consulting gave me the foundation. Security engineering was the next step, not a leap of faith.
 
-If you are a consultant wondering whether this path is for you, here is the honest test: if you find yourself wanting to understand *why* systems are built the way they are — not just where they break — you are probably already leaning this way.
+If you are a consultant wondering whether this path is for you, here is the honest test: if you find yourself wanting to understand *why* systems are built the way they are — not just where they break — you are probably already leaning this way. There is no right or wrong call. There is only the direction your curiosity points. Follow that.
 
 ---
 
